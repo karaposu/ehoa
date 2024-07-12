@@ -1,0 +1,143 @@
+categories:
+  - Food & Dining:
+      - Groceries
+      - Restaurants
+      - Coffee
+      - Takeout
+  - Utilities:
+      - Electricity and Water and Gas
+      - Internet and Mobile
+  - Accommodation:
+      - Accommodation
+  - Incoming P2P Transfers:
+      - Incoming Money
+  - Outgoing P2P Transfers:
+      - Outgoing Money
+  - Cash Withdrawal:
+      Cash Withdrawal
+  - Transportation:
+      - Fuel
+      - Taxi
+      - Travel Tickets
+      - Public Transportation
+      - Vehicle Maintenance
+      - Car Payments
+  - Healthcare:
+      - Medical Bills
+      - Health Insurance
+      - Medications
+  - Shopping:
+      - Clothes
+      - Technology Items
+  - Personal Care:
+      - Personal Grooming
+      - Fitness
+  - Entertainment:
+      - Movies
+      - Concerts
+  - Subscriptions:
+      - Subscriptions
+  - Business & Services:
+      - Cloud Server Payments
+
+
+rules:
+  Food & Dining:
+      Groceries:
+          - keyword: ["SOSEDI"]
+          - text_based: []
+      Restaurants:
+          - keyword: []
+          - text_based: []
+      Coffee:
+          - keyword: ["KOFEYNYA"]
+          - text_based: []
+      Takeout:
+          - keyword: []
+          - text_based: []
+  Utilities:
+      Electricity and Water and Gas:
+          - keyword: []
+          - text_based: []
+      Internet and Mobile:
+          - keyword: []
+          - text_based: []
+  Accommodation:
+      Accommodation:
+          - keyword: []
+          - text_based: []
+  Incoming P2P Transfers:
+      Incoming Money:
+          - keyword: []
+          - text_based: []
+  Outgoing P2P Transfers:
+      Outgoing Money:
+          - keyword: []
+          - text_based: ["must be towards a person"]
+  Cash Withdrawal:
+      Cash Withdrawal:
+           - keyword: []
+           - text_based: []
+  Transportation:
+      Fuel:
+          - keyword: []
+          - text_based: []
+      Taxi:
+          - keyword: ["YANDEX.GO"]
+          - text_based: []
+      Travel Tickets:
+          - keyword: []
+          - text_based: []
+      Public Transportation:
+          - keyword: []
+          - text_based: []
+      Vehicle Maintenance:
+          - keyword: []
+          - text_based: []
+      Car Payments:
+          - keyword: []
+          - text_based: []
+  Healthcare:
+      Medical Bills:
+          - keyword: []
+          - text_based: []
+      Health Insurance:
+          - keyword: []
+          - text_based: []
+      Medications:
+          - keyword: []
+          - text_based: []
+  Shopping:
+      Clothes:
+          - keyword: []
+          - text_based: []
+      Technology Items:
+          - keyword: []
+          - text_based:
+              - "if bill is from APPLE and cost is less than 40$, it is not an item, it should be classify as subscriptions"
+              - "if bill is from getir and cost is more than 50$, it is an item, it should be classify as shopping"
+  Personal Care:
+      Personal Grooming:
+          - keyword: []
+          - text_based: []
+      Fitness:
+          - keyword: []
+          - text_based: []
+  Entertainment:
+      Movies:
+          - keyword: []
+          - text_based: []
+      Concerts:
+          - keyword: []
+          - text_based: []
+  Subscriptions:
+      Subscriptions:
+          - keyword: ["MEDIUM"]
+          - text_based: []
+  Business & Services:
+      Cloud Server Payments:
+          - keyword: []
+          - text_based: []
+#  Uncategorized:
+#      - keyword: []
+#      - text_based: []

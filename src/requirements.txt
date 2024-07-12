@@ -1,0 +1,9 @@
+langchain-community langchain-core
+streamlit
+pandas
+matplotlib
+pyyaml
+tqdm
+plotly
+ipywidgets
+#ollama pull gemma2:2b
