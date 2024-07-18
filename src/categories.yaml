@@ -39,6 +39,10 @@ categories:
       - Subscriptions
   - Business & Services:
       - Cloud Server Payments
+  - Cash Withdraw:
+       - Cash Withdraw
+  - Cash Deposit:
+        - Deposit
 
 
 rules:
@@ -47,10 +51,10 @@ rules:
           - keyword: ["SOSEDI"]
           - text_based: []
       Restaurants:
-          - keyword: []
+          - keyword: ["WWW.PZZ.BY", "HOT DONER"]
           - text_based: []
       Coffee:
-          - keyword: ["KOFEYNYA"]
+          - keyword: ["KOFEYNYA", "GRAY HOUSE"]
           - text_based: []
       Takeout:
           - keyword: []
@@ -73,7 +77,7 @@ rules:
   Outgoing P2P Transfers:
       Outgoing Money:
           - keyword: []
-          - text_based: ["must be towards a person"]
+          - text_based: ["must be towards a person not to a company name"]
   Cash Withdrawal:
       Cash Withdrawal:
            - keyword: []
@@ -138,6 +142,16 @@ rules:
       Cloud Server Payments:
           - keyword: []
           - text_based: []
-#  Uncategorized:
+  Cash Withdraw:
+      Cash Withdraw:
+          - keyword: []
+          - text_based: [ ]
+  Cash Deposit:
+      Cash Deposit:
+          - keyword: []
+          - text_based: [ ]
+
+
+
 #      - keyword: []
 #      - text_based: []

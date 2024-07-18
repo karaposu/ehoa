@@ -25,6 +25,7 @@ def extract_categories(data):
 def get_hierarchical_categories(yaml_file):
     yaml_data = load_yaml(yaml_file)
 
+    # main_categories = [list(cat.keys())[0] for cat in category]
 
 
     print("categories",  yaml_data["categories"])
@@ -32,6 +33,15 @@ def get_hierarchical_categories(yaml_file):
     print("rules", yaml_data["rules"])
 
     categories_data = yaml_data['categories']
+    list_of_main_categories = [list(category.keys())[0] for category in categories_data]
+    list_of_subcategories = []
+    for category in categories_data:
+        for subcat in category.values():
+            if isinstance(subcat, list):
+                list_of_subcategories.extend(subcat)
+            else:
+                list_of_subcategories.append(subcat)
+
     rules_data = yaml_data['rules']
 
 
@@ -57,7 +67,7 @@ def get_hierarchical_categories(yaml_file):
     categories_and_rules = merge_categories_and_rules(categories_data, rules_data)
     print(" >>")
     print("categories_and_rules", categories_and_rules)
-    return categories_and_rules
+    return categories_and_rules,  list_of_main_categories , list_of_subcategories
 
 
 # def get_hierarchical_categories(yaml_file):

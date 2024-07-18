@@ -1,0 +1,28 @@
+banks:
+  enpara:
+    cleaning_patterns:
+      - pattern: "\\d+\\.\\d+ USD"
+        replacement: ""
+      - pattern: ", işlem kuru \\d+\\.\\d+ TL"
+        replacement: ""
+    classification_patterns:
+      - pattern: "Bireysel Ödeme"
+        category: "Outgoing P2P Transfers"
+        subcategory: "Outgoing Money"
+      - pattern: "Gelen Transfer"
+        category: "Incoming P2P Transfers"
+        subcategory: "Incoming Money"
+      - pattern: "Para Çekme"
+        category: "Cash Withdraw"
+        subcategory: "Cash Withdraw"
+      - pattern: "Yurtdışında ATM'den para çekme BSMV"
+        category: "Cash Withdraw"
+        subcategory: "Cash Withdraw"
+      - pattern: "Yurtdışında ATM'den para çekme komisyon."
+        category: "Cash Withdraw"
+        subcategory: "Cash Withdraw"
+
+
+
+
+
