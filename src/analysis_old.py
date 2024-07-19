@@ -3,24 +3,181 @@ from subprocess import run, PIPE
 from langchain_community.llms import Ollama
 from langchain.prompts import PromptTemplate
 import yaml
-from utils import get_categories, extract_categories,  extract_rules, create_rules_yaml
-from utils import classify_record_with_keyword, check_record_for_keywords , ExpandedDumper, string_to_dict
-from utils import get_hierarchical_categories
-from utils  import classify_and_refine
-
+from utils import get_categories, extract_categories, get_hierarchical_categories, extract_rules, create_rules_yaml
 from langchain_core.prompts import PromptTemplate
 from extract_table import extract_table_from_pdf
 import pandas as pd
 from tqdm import tqdm
 import ast
 import re
-from prompt_templates import  template1, refiner_template2
 
+
+def is_service_enabled(service_name):
+    try:
+        result = subprocess.run(['systemctl', 'is-enabled', service_name],
+                                stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+        if result.returncode == 0:
+            return result.stdout.strip() == 'enabled'
+        else:
+            print(f"Error checking service status: {result.stderr.strip()}")
+            return False
+    except Exception as e:
+        print(f"Exception occurred: {e}")
+        return False
+
+
+def dummy_classify_record_with_keyword(record):
+    return None
+
+
+def classify_record_with_keyword(record, categories_keywords):
+    for category, subcategories in categories_keywords.items():
+        for subcategory, keywords in subcategories.items():
+            for keyword in keywords:
+                if keyword.lower() in record.lower():
+                    return {'category': category, 'subcategory': subcategory}
+    return None
+
+
+def check_record_for_keywords(record, categories):
+    def search_keywords(record, categories, path=[]):
+        for category in categories:
+            for key, value in category.items():
+                current_path = path + [key]
+                rules = value.get('keyword', [])
+                if any(keyword in record for keyword in rules):
+                    return current_path
+                subcategories = value.get('subcategories', [])
+                result = search_keywords(record, subcategories, current_path)
+                if result:
+                    return result
+        return None
+
+    return search_keywords(record, categories)
+
+
+class ExpandedDumper(yaml.SafeDumper):
+    def ignore_aliases(self, data):
+        return True
+
+
+def refine_answer(llm, answer_to_be_refined):
+    refiner_template = '''
+    Here is a text {answer_to_be_refined}.  i want you to extract information by searching for Main Category and Subcategory and 
+    give me answer in following format
+     {{ 'category': 'here_is_selected_category', 'subcategory': 'here_is_selected_subcategory' }} 
+       do not output extra information and remove words like "likely"! 
+    '''
+
+    # refiner_template = '''Here is an answer from another LLM for my question. {answer_to_be_refined} I want you to format the answer in following format
+    #  {{ 'category': 'here_is_selected_category', 'subcategory': 'here_is_selected_subcategory' }}
+    #  do not output extra information! '''
+    prompt = PromptTemplate.from_template(refiner_template)
+    formatted_prompt = prompt.format(answer_to_be_refined=answer_to_be_refined)
+    r = llm.invoke(formatted_prompt)
+    return r
+
+
+def classify_record(llm, record, classes):
+    # keyword_based_classification_result = classify_record_with_keyword(record)
+    # if keyword_based_classification_result is None:
+
+    classes_string = yaml.dump(classes, default_flow_style=False, Dumper=ExpandedDumper)
+
+    # print("....")
+    # print("classes_string", classes_string)
+
+    template2 = '''
+    Prompt Template
+    String record to classify:
+    {record}
+
+    Category Structure:
+
+    {classes}
+
+    Task Description:
+
+    Identify the Main Category: Determine which of the main categories (e.g., Food & Dining, Utilities, etc.) the string belongs to.
+    Determine the Subcategory: Once the main category is identified, determine the specific subcategory within that main category (e.g., within Food & Dining, identify whether it is Groceries, Restaurants, Coffee, or Takeout).
+    Extra Information - Rules: There is additional information under each subcategory labeled as 'rules'. These rules include 'keyword' and 'text_based' but should be considered as extra information and not directly involved in the classification task.
+
+    Instructions:
+    Given the string record, first identify the main category, and then the specific subcategory within that main category (your final answer shouldnt include words like "likely").
+    Use the 'rules' section for additional context.
+
+    Examples:
+    Record: "Grocery shopping at Walmart"
+    Main Category: Food & Dining
+    Subcategory: Groceries
+
+    Record: "Monthly electricity bill"
+    Main Category: Utilities
+    Subcategory: Electricity and Water and Gas
+    '''
+
+    prompt = PromptTemplate.from_template(template2)
+    formatted_prompt = prompt.format(record=record, classes=classes_string)
+    print("----")
+    print(formatted_prompt)
+    r = llm.invoke(formatted_prompt)
+    return r
 
 
 def get_statements(pdf_document_path, bank_name):
     df = extract_table_from_pdf(pdf_document_path, bank_name)
     return df
+
+
+def string_to_dict(string):
+    # Ensure the string is enclosed with curly braces if it isn't already
+    string = string.strip()
+    if not string.startswith("{"):
+        string = "{" + string
+    if not string.endswith("}"):
+        string = string + "}"
+
+    # Replace single quotes with double quotes and handle null values
+    clean_string = string.replace("'", '"').replace("null", "None").strip()
+
+    # Remove any characters after the closing brace
+    clean_string = re.sub(r'}.*$', '}', clean_string)
+
+    # Add missing quotes around keys and values
+    clean_string = re.sub(r'(\w+):', r'"\1":', clean_string)  # Add quotes around keys
+    clean_string = re.sub(r': ([\w\s]+)', r': "\1"', clean_string)  # Add quotes around values
+
+    try:
+        # Use ast.literal_eval to safely evaluate the string as a dictionary
+        return ast.literal_eval(clean_string)
+    except (SyntaxError, ValueError) as e:
+        print(f"Error parsing string: {clean_string}\n{e}")
+        return None
+
+
+# def string_to_dict(string):
+#     clean_string = string.replace("'", '"').replace("null", "None").strip()
+#     try:
+#         return ast.literal_eval(clean_string)
+#     except (SyntaxError, ValueError) as e:
+#         print(f"Error parsing string: {clean_string}\n{e}")
+#         return None
+
+def is_valid_category(text, list_of_categories):
+    if text in list_of_categories:
+        return True
+    else:
+        return False
+
+
+def is_answer_valid(answer, list_of_categories, list_of_subcategories):
+    if answer is not None:
+        if is_valid_category(answer.get("category"), list_of_categories):
+            if is_valid_category(answer.get("subcategory"), list_of_subcategories):
+                return True
+        print("cat or subcat not valid!")
+    return False
+
 
 def classify_record_with_bank_pattern(desc, bank_classification_patterns):
     for pattern in bank_classification_patterns:
@@ -37,16 +194,32 @@ def classify_record_with_bank_pattern(desc, bank_classification_patterns):
     return None
 
 
+# def classify_record_with_bank_pattern(desc, bank_classification_patterns):
+#     for pattern in bank_classification_patterns:
+#         if re.search(pattern['pattern'], desc):
+#             return {
+#                 'category': pattern['category'],
+#                 'subcategory': pattern['subcategory']
+#             }
+#     return None
+
+#
+# def classify_record_with_bank_pattern(desc, bank_patterns):
+#     classification_patterns = bank_patterns.get("classification_patterns", [])
+#
+#     for pattern in classification_patterns:
+#         if re.search(pattern['pattern'], desc):
+#             return {
+#                 'category': pattern['category'],
+#                 'subcategory': pattern['subcategory']
+#             }
+#
+#     # Return None if no pattern matches
+#     return None
 
 
-def find_category_and_subcategory(desc,
-                                  llm,template1,
-                                  llm_refiner,
-                                  refiner_template2,
-                                  categories_and_rules,
-                                  list_of_main_categories,
-                                  list_of_subcategories,
-                                  bank_classification_patterns):
+def find_category_and_subcategory(desc, llm, llm_refiner, categories_and_rules, list_of_main_categories,
+                                  list_of_subcategories, bank_classification_patterns):
     by_bank_pattern = True
     by_keyword_rule = False
 
@@ -65,13 +238,10 @@ def find_category_and_subcategory(desc,
 
             # Use LLM-based classification
 
-            classification_result, raw_string_answer, refined_answer = classify_and_refine(llm, template1,
-                                                                                           llm_refiner,
-                                                                                           refiner_template2,
-                                                                                           desc,
+            classification_result, raw_string_answer, refined_answer = classify_and_refine(llm, llm_refiner, desc,
                                                                                            categories_and_rules,
                                                                                            list_of_main_categories,
-                                                                                       list_of_subcategories)
+                                                                                           list_of_subcategories)
             if classification_result is None:
                 return {'category': 'Uncategorized',
                         'subcategory': 'Uncategorized'}, by_bank_pattern, by_keyword_rule, raw_string_answer, refined_answer
@@ -84,6 +254,73 @@ def find_category_and_subcategory(desc,
             refined_answer = "-"
 
     return classification_result, by_bank_pattern, by_keyword_rule, raw_string_answer, refined_answer
+
+
+def classify_and_refine(llm, llm_refiner, desc, categories_and_rules, list_of_main_categories, list_of_subcategories):
+    raw_string_answer = classify_record(llm, desc, categories_and_rules)
+    refined_answer = refine_answer(llm_refiner, raw_string_answer)
+
+    if not refined_answer:
+        return None, None, None
+
+    refined_answer_dict = string_to_dict(refined_answer)
+    if refined_answer_dict is None:
+        return None, raw_string_answer, refined_answer
+
+    if not is_answer_valid(refined_answer_dict, list_of_main_categories, list_of_subcategories):
+        raw_string_answer = classify_record(llm, desc, categories_and_rules)
+        refined_answer = refine_answer(llm_refiner, raw_string_answer)
+        if not refined_answer:
+            return None, raw_string_answer, refined_answer
+
+        refined_answer_dict = string_to_dict(refined_answer)
+        if refined_answer_dict is None:
+            return None, raw_string_answer, refined_answer
+
+    return refined_answer_dict, raw_string_answer, refined_answer
+
+
+# def classify_and_refine(llm, llm_refiner, desc, categories_and_rules, list_of_main_categories, list_of_subcategories):
+#     raw_string_answer = classify_record(llm, desc, categories_and_rules)
+#     refined_answer = refine_answer(llm_refiner, raw_string_answer)
+#
+#     if not refined_answer:
+#         return None
+#
+#     refined_answer_dict = string_to_dict(refined_answer)
+#     if refined_answer_dict is None:
+#         return None
+#
+#     if not is_answer_valid(refined_answer_dict, list_of_main_categories, list_of_subcategories):
+#         raw_string_answer = classify_record(llm, desc, categories_and_rules)
+#         refined_answer = refine_answer(llm_refiner, raw_string_answer)
+#         if not refined_answer:
+#             return None
+#
+#         refined_answer_dict = string_to_dict(refined_answer)
+#         if refined_answer_dict is None:
+#             return None
+#
+#     return refined_answer_dict, raw_string_answer, refined_answer
+
+
+def clean_enpara_desc(value):
+    def clean_currency_info(record):
+        pattern = r', \d+\.?\d* (USD|TRY), işlem kuru \d+\.\d+ TL'
+        cleaned_record = re.sub(pattern, '', record)
+        cleaned_desc = cleaned_record.strip()
+        return cleaned_desc
+
+    cleaned_record = clean_currency_info(value)
+    return cleaned_record
+
+
+def clean_descs(descs, bank_name):
+    clean_values = []
+    for e in tqdm(descs, desc="cleaning desc"):
+        v = clean_enpara_desc(e)
+        clean_values.append(v)
+    return clean_values
 
 
 def get_bank_patterns(file_path, bank_name):
@@ -268,15 +505,14 @@ def do_analysis(llm, llm_refiner, pdf_document_path, bank_name):
     bank_classification_patterns = bank_patterns["classification_patterns"]
 
     results = []
-    raw_answers = []
-    refined_answers = []
     classified_by_bank_pattern = []
     classified_by_keyword_rule = []
     identifiers = []
     cleaned_descs = []
     classification_cache = {}
 
-
+    raw_answers = []
+    refined_answers = []
 
     for e in tqdm(descs, desc="Classifying records"):
         # e = clean_description(e, bank_cleaning_patterns)  # Clean the description using bank-specific patterns
@@ -292,20 +528,9 @@ def do_analysis(llm, llm_refiner, pdf_document_path, bank_name):
             classification_result, by_bank_pattern, by_keyword_rule, raw_string_answer, refined_answer = find_category_and_subcategory(
                 e,
                 llm,
-                template1,
-                llm_refiner,
-                refiner_template2,
-                categories_and_rules,
-                list_of_main_categories,
                 list_of_subcategories,
                 bank_classification_patterns
                 )
-
-
-
-
-
-
             classification_cache[string_id] = (classification_result, by_bank_pattern, by_keyword_rule)
 
         raw_answers.append(raw_string_answer)

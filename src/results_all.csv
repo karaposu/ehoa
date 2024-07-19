@@ -6,79 +6,69 @@ EFT (FAST) sorgu no: 1727327234",Outgoing P2P Transfers,Outgoing Money,.,.,True,
 01/06/24,"Encard Harcaması, I.-SHOP WWW.PZZ.BY PAR g.p.
 MACHULI BY, 9.01 USD, işlem kuru 32.980000 TL",297.15,"6.715,79 TL","Encard Harcaması, I.-SHOP WWW.PZZ.BY PAR g.p.
 MACHULI BY, 9.01 USD, işlem kuru 32.980000 TL","Encard Harcaması, I.-SHOP WWW.PZZ.BY PAR g.p.
-MACHULI BY, ",Food & Dining,Restaurants,-,-,False,True,"I.-SHOP WWW.PZZ.BY PAR g.p.
+MACHULI BY, 9.01 USD, işlem kuru 32.980000 TL",Food & Dining,Restaurants,-,-,False,True,"I.-SHOP WWW.PZZ.BY PAR g.p.
 MACHULI BY"
 02/06/24,"Encard Harcaması, I.-SHOP WWW.PZZ.BY PAR g.p.
 MACHULI BY, 9.94 USD, işlem kuru 32.980000 TL",327.82,"6.387,97 TL","Encard Harcaması, I.-SHOP WWW.PZZ.BY PAR g.p.
 MACHULI BY, 9.94 USD, işlem kuru 32.980000 TL","Encard Harcaması, I.-SHOP WWW.PZZ.BY PAR g.p.
-MACHULI BY, ",Food & Dining,Restaurants,from cache,from cache,False,True,"I.-SHOP WWW.PZZ.BY PAR g.p.
+MACHULI BY, 9.94 USD, işlem kuru 32.980000 TL",Food & Dining,Restaurants,from cache,from cache,False,True,"I.-SHOP WWW.PZZ.BY PAR g.p.
 MACHULI BY"
 02/06/24,"Encard Harcaması, WEBPOS SATIŞ IYZICO/AMAZON.
 COM.TR ISTANBUL TRTR.",1906.44,"4.481,53 TL","Encard Harcaması, WEBPOS SATIŞ IYZICO/AMAZON.
 COM.TR ISTANBUL TRTR.","Encard Harcaması, WEBPOS SATIŞ IYZICO/AMAZON.
-COM.TR ISTANBUL TRTR.",Uncategorized,Uncategorized,"Okay, I understand the task. 
-
-Please provide me with the string record you want me to classify. I will identify the main category and subcategory based on your provided rules.  
-","I am unable to provide you with the string record you want me to classify, as I do not have access to external sources or the capability to access and analyze textual data.",False,False,"WEBPOS SATIŞ IYZICO/AMAZON.
+COM.TR ISTANBUL TRTR.",Shopping,Technology Items,"Main Category: Shopping 
+Subcategory: Technology Items  
+","{
+  ""category"": ""Shopping"",
+  ""subcategory"": ""Technology Items""
+}",False,False,"WEBPOS SATIŞ IYZICO/AMAZON.
 COM.TR ISTANBUL TRTR."
 02/06/24,"Encard Harcaması, GRAY HOUSE MINSK
 BY, 4.52 USD, işlem kuru 32.980000 TL",149.07,"4.332,46 TL","Encard Harcaması, GRAY HOUSE MINSK
 BY, 4.52 USD, işlem kuru 32.980000 TL","Encard Harcaması, GRAY HOUSE MINSK
-BY, ",Food & Dining,Coffee,-,-,False,True,"GRAY HOUSE MINSK
+BY, 4.52 USD, işlem kuru 32.980000 TL",Food & Dining,Coffee,-,-,False,True,"GRAY HOUSE MINSK
 BY"
 03/06/24,"Ödeme, Türk Telekom Mobil (TT Mobil)-Faturalı Hat
 faturası, abone no : 5059704043",390.0,"3.942,46 TL","Ödeme, Türk Telekom Mobil (TT Mobil)-Faturalı Hat
 faturası, abone no : 5059704043","Ödeme, Türk Telekom Mobil (TT Mobil)-Faturalı Hat
-faturası, abone no : 5059704043",Uncategorized,Uncategorized,"Let's get started!  
-
-Please provide me with the string record you'd like me to classify. I'm ready to analyze it and determine the main category and subcategory based on your provided rules. 
-
-
-For example, you can give me a record like:
-
-""APPLE subscription for music streaming"" 
-",I understand your request. Please provide me with the text you would like me to classify and I will extract the main category and subcategory based on your provided rules.,False,False,Türk Telekom Mobil (TT Mobil)
+faturası, abone no : 5059704043",Uncategorized,Uncategorized,"Main Category: Utilities
+Subcategory: Telecom  
+","{
+  ""category"": ""Utilities"",
+  ""subcategory"": ""Telecom""
+}
+",False,False,Türk Telekom Mobil (TT Mobil)
 04/06/24,"Gelen Transfer, ENES ESVET KUZUCU, Bireysel Ödeme",-14000.0,"17.942,46 TL","Gelen Transfer, ENES ESVET KUZUCU, Bireysel Ödeme","Gelen Transfer, ENES ESVET KUZUCU, Bireysel Ödeme",Outgoing P2P Transfers,Outgoing Money,.,.,True,False,"Gelen Transfer, ENES ESVET KUZUCU"
 04/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 2.47 USD, işlem kuru 32.782500 TL",80.97,"17.861,49 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 2.47 USD, işlem kuru 32.782500 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,-,-,False,True,YANDEX.GO MINSK BY
+2.47 USD, işlem kuru 32.782500 TL",Transportation,Taxi,-,-,False,True,YANDEX.GO MINSK BY
 04/06/24,"Encard Harcaması, Restoran Ramiz Minsk BY,
 38.20 USD, işlem kuru 32.980000 TL",1259.84,"16.601,65 TL","Encard Harcaması, Restoran Ramiz Minsk BY,
 38.20 USD, işlem kuru 32.980000 TL","Encard Harcaması, Restoran Ramiz Minsk BY,
-",Uncategorized,Uncategorized,"Okay, I understand. Please provide me with the string record you want me to classify. 
-
-I will analyze it based on your provided categories and rules, and give you the Main Category and Subcategory.  
-
-For example, if you give me ""Netflix subscription renewal,"" I'll output:
-
-* **Main Category:** Subscriptions
-* **Subcategory:** Streaming Services 
+38.20 USD, işlem kuru 32.980000 TL",Business & Services,Cloud Server Payments,"Main Category: Business & Services
+Subcategory:  Cloud Server Payments 
 
 
-Let's begin!  
-","I understand. Please provide me with the string record you want me to classify.
-
-I will analyze it based on your provided categories and rules, and give you the Main Category and Subcategory.
-
-For example, if you give me ""Netflix subscription renewal,"" I'll output:
-
-```
-{'category': 'Subscriptions', 'subcategory': 'Streaming Services'}
-```
-
-Do not output any extra information and remove words like ""likely""!",False,False,Restoran Ramiz Minsk BY
+Let me know if you have any other strings you'd like me to classify! 
+","{
+  ""category"": ""Business & Services"",
+  ""subcategory"": ""Cloud Server Payments""
+}",False,False,Restoran Ramiz Minsk BY
 04/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 2.54 USD, işlem kuru 33.142000 TL",84.18,"16.517,47 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 2.54 USD, işlem kuru 33.142000 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+2.54 USD, işlem kuru 33.142000 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 04/06/24,"Encard Harcaması, SHOP ""SOKOLOV"" BAPB MINSK
 BY, 49.04 USD, işlem kuru 33.130000 TL",1624.7,"14.892,77 TL","Encard Harcaması, SHOP ""SOKOLOV"" BAPB MINSK
 BY, 49.04 USD, işlem kuru 33.130000 TL","Encard Harcaması, SHOP ""SOKOLOV"" BAPB MINSK
-BY, ",Uncategorized,Uncategorized,"Okay, I understand the task. 
+BY, 49.04 USD, işlem kuru 33.130000 TL",Shopping,Technology Items,"Main Category: Shopping
 
-Please provide me with a string record so I can identify the main category and subcategory.  
-",I am unable to provide a string record or extract the requested information from the context. I do not have access to the context or the ability to perform the requested task.,False,False,"SHOP ""SOKOLOV"" BAPB MINSK
+Subcategory: Technology Items  
+","{
+  ""category"": ""Shopping"",
+  ""subcategory"": ""Technology Items""
+}",False,False,"SHOP ""SOKOLOV"" BAPB MINSK
 BY"
 04/06/24,"Giden Transfer, Hayriye meltem Özgür, Bireysel Ödeme,
 EFT (FAST) sorgu no: 1734636620",2500.0,"12.392,77 TL","Giden Transfer, Hayriye meltem Özgür, Bireysel Ödeme,
@@ -87,137 +77,60 @@ EFT (FAST) sorgu no: 1734636620",Outgoing P2P Transfers,Outgoing Money,.,.,True,
 04/06/24,"Encard Harcaması, Gipermarket Gippo Minsk BY,
 0.46 USD, işlem kuru 32.930000 TL",15.15,"12.377,62 TL","Encard Harcaması, Gipermarket Gippo Minsk BY,
 0.46 USD, işlem kuru 32.930000 TL","Encard Harcaması, Gipermarket Gippo Minsk BY,
-",Uncategorized,Uncategorized,"Okay, I understand the task. 
+0.46 USD, işlem kuru 32.930000 TL",Shopping,Clothes,"Main Category: Shopping
 
-You want me to classify text records into main categories and subcategories based on their content.  I'll use the provided information in the ""rules"" section as context to help with the classification. 
-
-**Please provide me with the text record you want me to classify.** 
-
-
-For example:
-
-""Record: 'My APPLE Music subscription was renewed.'""   
-","I'm unable to provide you with a text record to classify, as I am unable to access external sources or provide responses based on specific text content.",False,False,Gipermarket Gippo Minsk BY
+Subcategory: Clothes 
+","{
+  ""category"": ""Shopping"",
+  ""subcategory"": ""Clothes""
+}",False,False,Gipermarket Gippo Minsk BY
 04/06/24,"Giden Transfer, Eliptik Yazılım ve Ticaret A.Ş., Enes Esvet
 Kuzucu, EFT (FAST) sorgu no: 1735182355",10000.0,"2.377,62 TL","Giden Transfer, Eliptik Yazılım ve Ticaret A.Ş., Enes Esvet
 Kuzucu, EFT (FAST) sorgu no: 1735182355","Giden Transfer, Eliptik Yazılım ve Ticaret A.Ş., Enes Esvet
-Kuzucu, EFT (FAST) sorgu no: 1735182355",Uncategorized,Uncategorized,"Okay, I understand the task.  
+Kuzucu, EFT (FAST) sorgu no: 1735182355",Business & Services,Cloud Server Payments,"Main Category: Business & Services
 
-You want me to categorize text strings based on their content, using a hierarchical structure you've provided. 
-
-I will:
-
-1. **Identify the main category:** This will be one of the top-level categories like ""Health Insurance"", ""Shopping"", ""Personal Care"", etc.
-2. **Determine the subcategory:**  Given the main category, I'll pinpoint the more specific subcategory it belongs to.
-
-Remember, I should base my decisions solely on the text content and the provided hierarchy. I won't use any external information or make assumptions beyond what is explicitly stated. 
+Subcategory: Cloud Server Payments 
 
 
-**Give me a text string, and I'll classify it!** 
-","Sure, here's an example:
-
-**Input text:**
-
-""I went to the grocery store to buy some groceries, but I forgot my wallet at home. I had to go back home to get it, but it was already closed.""
-
-**Output:**
-
-{ 'category': 'Shopping', 'subcategory': 'Groceries' }",False,False,"Giden Transfer, Eliptik Yazılım ve Ticaret A.Ş."
+Let me know if you'd like to classify another record! 
+","{
+  ""category"": ""Business & Services"",
+  ""subcategory"": ""Cloud Server Payments""
+}",False,False,"Giden Transfer, Eliptik Yazılım ve Ticaret A.Ş."
 04/06/24,"Gelen Transfer, ENES ESVET KUZUCU, Bireysel Ödeme",-11000.0,"13.377,62 TL","Gelen Transfer, ENES ESVET KUZUCU, Bireysel Ödeme","Gelen Transfer, ENES ESVET KUZUCU, Bireysel Ödeme",Outgoing P2P Transfers,Outgoing Money,from cache,from cache,True,False,"Gelen Transfer, ENES ESVET KUZUCU"
 04/06/24,"Encard Harcaması, KAFE-PEKARNYA ""BULOCHK MINSK
 BY, 3.73 USD, işlem kuru 33.170000 TL",123.72,"13.253,90 TL","Encard Harcaması, KAFE-PEKARNYA ""BULOCHK MINSK
 BY, 3.73 USD, işlem kuru 33.170000 TL","Encard Harcaması, KAFE-PEKARNYA ""BULOCHK MINSK
-BY, ",Uncategorized,Uncategorized,"Okay, I understand.  
-
-You've provided a detailed categorization system with rules for classifying expense strings. 
-
-**To help me classify your records accurately, please provide the string you want me to categorize.**
-
-For example:
-
-""Record: Netflix subscription payment""
+BY, 3.73 USD, işlem kuru 33.170000 TL",Personal Care,Personal Grooming,"Main Category:  Personal Care
+Subcategory: Personal Grooming 
 
 
-I will then identify the Main Category and Subcategory based on your system.  
-","Sure, here is the code to extract the category and subcategory from the input string:
-
-```python
-def extract_category_and_subcategory(input_string):
-    """"""
-    Extracts the main category and sub category from the input string.
-
-    Args:
-        input_string (str): The input string.
-
-    Returns:
-        dict: A dictionary containing the category and subcategory.
-    """"""
-
-    # Split the input string into a list of words.
-    words = input_string.split()
-
-    # Find the main category.
-    main_category = words[0]
-
-    # Find the sub category.
-    sub_category = "" "".join(words[1:])
-
-    return {""category"": main_category, ""subcategory"": sub_category}
-
-
-# Get the input string from the user.
-input_string = input(""Enter a text to categorize: "")
-
-# Extract the category and subcategory.
-category_and_subcategory = extract_category_and_subcategory(input_string)
-
-# Print the category and subcategory.
-print(f""Category: {category_and_subcategory['category']}"")
-print(f""Subcategory: {category_and_subcategory['subcategory']}"")
-```
-
-**Example Usage:**
-
-```
-Enter a text to categorize: Netflix subscription payment
-Category: Subscription
-Subcategory: Netflix
-```
-
-**Notes:**
-
-* The code assumes that the input string is a single sentence.
-* If the input string contains multiple sentences, the first sentence will be used as the main category.
-* The code does not handle errors or invalid input.",False,False,"KAFE-PEKARNYA ""BULOCHK MINSK
+Let me know if you'd like me to classify another record! 
+","{
+  ""category"": ""Personal Care"",
+  ""subcategory"": ""Personal Grooming""
+}",False,False,"KAFE-PEKARNYA ""BULOCHK MINSK
 BY"
 04/06/24,"Para Çekme, Yurtdışında ATM'den para çekme, 46.97
 USD, işlem kuru 33.325000 TL.",1565.28,"11.688,62 TL","Para Çekme, Yurtdışında ATM'den para çekme, 46.97
 USD, işlem kuru 33.325000 TL.","Para Çekme, Yurtdışında ATM'den para çekme, 46.97
-USD.",Cash Withdraw,Cash Withdraw,.,.,True,False,Yurtdışında ATM'den para çekme
+USD, işlem kuru 33.325000 TL.",Cash Withdraw,Cash Withdraw,.,.,True,False,Yurtdışında ATM'den para çekme
 04/06/24,"Masraf/Ücret, Yurtdışında ATM'den para çekme komisyon.",99.98,"11.588,64 TL","Masraf/Ücret, Yurtdışında ATM'den para çekme komisyon.","Masraf/Ücret, Yurtdışında ATM'den para çekme komisyon.",Cash Withdraw,Cash Withdraw,.,.,True,False,
 04/06/24,"Masraf/Ücret, Yurtdışında ATM'den para çekme BSMV.",5.0,"11.583,64 TL","Masraf/Ücret, Yurtdışında ATM'den para çekme BSMV.","Masraf/Ücret, Yurtdışında ATM'den para çekme BSMV.",Cash Withdraw,Cash Withdraw,from cache,from cache,True,False,
 04/06/24,"Encard Harcaması, APTEKA 11 MINSK BY,
 4.44 USD, işlem kuru 33.355000 TL",148.1,"11.435,54 TL","Encard Harcaması, APTEKA 11 MINSK BY,
 4.44 USD, işlem kuru 33.355000 TL","Encard Harcaması, APTEKA 11 MINSK BY,
-",Uncategorized,Uncategorized,"Okay, I understand. 
+4.44 USD, işlem kuru 33.355000 TL",Personal Care,Personal Grooming,"Main Category:  Personal Care
 
-Give me a string record, and I will identify the main category and subcategory it belongs to based on your provided rules.  
-
-Remember, I'll focus on the core category and subcategory structure without directly using the ""rules"" sections for classification.  
-
-
-Let's get started! 😊  
-","Sure, here's a string record:
-
-```
-This is a beautiful picture of the Eiffel Tower in Paris, France.
-```
-
-The main category is ""Image"" and the subcategory is ""Eiffel Tower"".",False,False,APTEKA 11 MINSK BY
+Subcategory: Personal Grooming 
+","{
+  ""category"": ""Personal Care"",
+  ""subcategory"": ""Personal Grooming""
+}",False,False,APTEKA 11 MINSK BY
 04/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 1.06 USD, işlem kuru 33.355000 TL",35.36,"11.400,18 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 1.06 USD, işlem kuru 33.355000 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+1.06 USD, işlem kuru 33.355000 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 04/06/24,"Diğer, 5351772730218144 nolu kart Yurt Dışı POS satış
 ters işlem.",-35.36,"11.435,54 TL","Diğer, 5351772730218144 nolu kart Yurt Dışı POS satış
 ters işlem.","Diğer, 5351772730218144 nolu kart Yurt Dışı POS satış
@@ -225,123 +138,100 @@ ters işlem.",Cash Withdraw,Cash Withdraw,from cache,from cache,True,False,
 04/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 2.19 USD, işlem kuru 33.356500 TL",73.05,"11.362,49 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 2.19 USD, işlem kuru 33.356500 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+2.19 USD, işlem kuru 33.356500 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 04/06/24,"Encard Harcaması, CHAYHONA N 1 BSB MINSK
 BY, 24.24 USD, işlem kuru 33.357000 TL",808.57,"10.553,92 TL","Encard Harcaması, CHAYHONA N 1 BSB MINSK
 BY, 24.24 USD, işlem kuru 33.357000 TL","Encard Harcaması, CHAYHONA N 1 BSB MINSK
-BY, ",Uncategorized,Uncategorized,"Okay, I understand the task. 
+BY, 24.24 USD, işlem kuru 33.357000 TL",Cash Withdraw,Cash Withdraw,"Main Category: Cash Withdraw
 
-Give me a string record and I will identify the Main Category and Subcategory based on your provided rules.  I'll keep in mind that I shouldn't use words like ""likely"" and will focus on the clear categories and subcategories defined in your structure. 
-
-
-Let's begin! 
-","I understand the task. Please provide me with a text, and I will identify the main category and subcategory based on the provided rules. I will focus on clear categories and subcategories defined in the structure, excluding words like ""likely.""
-
-Please let me know if you have any other questions.",False,False,"CHAYHONA N 1 BSB MINSK
+Subcategory: Cash Withdraw  
+","{
+  ""category"": ""Cash Withdraw"",
+  ""subcategory"": ""Cash Withdraw""
+}",False,False,"CHAYHONA N 1 BSB MINSK
 BY"
 04/06/24,"Encard Harcaması, SHOP ""SOSEDI"" MINSK
 BY, 3.64 USD, işlem kuru 33.357500 TL",121.42,"10.432,50 TL","Encard Harcaması, SHOP ""SOSEDI"" MINSK
 BY, 3.64 USD, işlem kuru 33.357500 TL","Encard Harcaması, SHOP ""SOSEDI"" MINSK
-BY, ",Food & Dining,Groceries,-,-,False,True,"SHOP ""SOSEDI"" MINSK
+BY, 3.64 USD, işlem kuru 33.357500 TL",Food & Dining,Groceries,-,-,False,True,"SHOP ""SOSEDI"" MINSK
 BY"
 05/06/24,"Encard Harcaması, I.-SHOP WWW.PZZ.BY PAR g.p.
 MACHULI BY, 18.19 USD, işlem kuru 33.180000 TL",603.54,"9.828,96 TL","Encard Harcaması, I.-SHOP WWW.PZZ.BY PAR g.p.
 MACHULI BY, 18.19 USD, işlem kuru 33.180000 TL","Encard Harcaması, I.-SHOP WWW.PZZ.BY PAR g.p.
-MACHULI BY, ",Food & Dining,Restaurants,from cache,from cache,False,True,"I.-SHOP WWW.PZZ.BY PAR g.p.
+MACHULI BY, 18.19 USD, işlem kuru 33.180000 TL",Food & Dining,Restaurants,from cache,from cache,False,True,"I.-SHOP WWW.PZZ.BY PAR g.p.
 MACHULI BY"
 05/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 4.24 USD, işlem kuru 33.180000 TL",140.68,"9.688,28 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 4.24 USD, işlem kuru 33.180000 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+4.24 USD, işlem kuru 33.180000 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 06/06/24,"Encard Harcaması, LINKEDIN PRE*P42599996 LNKD.
 IN/BILL IE, 239.99 TRY, işlem kuru 32.825000 TL",239.99,"9.448,29 TL","Encard Harcaması, LINKEDIN PRE*P42599996 LNKD.
 IN/BILL IE, 239.99 TRY, işlem kuru 32.825000 TL","Encard Harcaması, LINKEDIN PRE*P42599996 LNKD.
-IN/BILL IE, 239.99 TRY",Uncategorized,Uncategorized,"Okay, I understand.  Give me a string record, and I'll do my best to identify the main category and subcategory based on the rules you provided. 
+IN/BILL IE, 239.99 TRY, işlem kuru 32.825000 TL",Business & Services,Cloud Server Payments,"Main Category: Business & Services
 
-For example, you can give me something like:
-
-""Netflix subscription payment"" 
-
-
-Let's classify! 
-","Sure, here is a string record:
-
-""Netflix subscription payment""
-
-The main category is ""Entertainment"" and the subcategory is ""Streaming services"".",False,False,"LINKEDIN PRE*P42599996 LNKD.
+Subcategory: Cloud Server Payments  
+","{
+  ""category"": ""Business & Services"",
+  ""subcategory"": ""Cloud Server Payments""
+}",False,False,"LINKEDIN PRE*P42599996 LNKD.
 IN/BILL IE"
 06/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 2.48 USD, işlem kuru 32.820000 TL",81.39,"9.366,90 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 2.48 USD, işlem kuru 32.820000 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+2.48 USD, işlem kuru 32.820000 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 06/06/24,"Encard Harcaması, OOO TAMARINDA FUD MINSK
 BY, 5.47 USD, işlem kuru 32.814000 TL",179.49,"9.187,41 TL","Encard Harcaması, OOO TAMARINDA FUD MINSK
 BY, 5.47 USD, işlem kuru 32.814000 TL","Encard Harcaması, OOO TAMARINDA FUD MINSK
-BY, ",Uncategorized,Uncategorized,"Okay, I understand the task.  
-
-Please provide me with the string record you want me to classify. I'll identify the main category and subcategory based on your provided rules. 
-
-
-Let's get started! 
-","I'm unable to access external sources or provide personal opinions, so I cannot help with this task.",False,False,"OOO TAMARINDA FUD MINSK
+BY, 5.47 USD, işlem kuru 32.814000 TL",Business & Services,Cloud Server Payments,"Main Category:  Business & Services
+Subcategory: Cloud Server Payments 
+","{
+  ""category"": ""Business & Services"",
+  ""subcategory"": ""Cloud Server Payments""
+}",False,False,"OOO TAMARINDA FUD MINSK
 BY"
 06/06/24,"Encard Harcaması, Cinnabon Minsk BY,
 1.88 USD, işlem kuru 32.815000 TL",61.69,"9.125,72 TL","Encard Harcaması, Cinnabon Minsk BY,
 1.88 USD, işlem kuru 32.815000 TL","Encard Harcaması, Cinnabon Minsk BY,
-",Uncategorized,Uncategorized,"Okay, I understand.  
+1.88 USD, işlem kuru 32.815000 TL",Business & Services,Cloud Server Payments,"Main Category:  Business & Services
 
-**My approach will be:**
-
-1. **Analyze the string:** Read through the provided text record carefully.
-2. **Identify keywords:** Look for specific words that strongly suggest a main category or subcategory. 
-3. **Consider context:** If keywords are ambiguous, use the overall meaning of the sentence to determine the most likely category. 
+Subcategory: Cloud Server Payments 
 
 
-**Let me know when you have a record you want me to classify!** 
-","I understand your instructions.  I will use the three steps you outlined to extract the main category and subcategory from the text record.
-
-**Please provide me with the text record you would like me to analyze.**",False,False,Cinnabon Minsk BY
+Let me know if you have any other examples! 
+","{
+  ""category"": ""Business & Services"",
+  ""subcategory"": ""Cloud Server Payments""
+}",False,False,Cinnabon Minsk BY
 06/06/24,"Encard Harcaması, Spotify Stockholm SE,
 59.99 TRY, işlem kuru 33.014500 TL",59.99,"9.065,73 TL","Encard Harcaması, Spotify Stockholm SE,
 59.99 TRY, işlem kuru 33.014500 TL","Encard Harcaması, Spotify Stockholm SE,
-59.99 TRY",Uncategorized,Uncategorized,"Okay, I understand the task.  
+59.99 TRY, işlem kuru 33.014500 TL",Subscriptions,Subscriptions,"Main Category: Subscriptions
 
-Give me a string record and I will identify the Main Category and Subcategory based on your provided rules. 
-
-
-For example, you can give me something like:
-
-""Netflix subscription payment""  
-
-And I will respond with:
-
-* **Main Category:** Subscriptions
-* **Subcategory:** Streaming Services  
+Subcategory: Subscriptions  
 
 
-
-Let's get started! 
-","I understand the task. Please provide a text and I will extract the main category and subcategory based on your rules.
-
-",False,False,Spotify Stockholm SE
+Let me know if you'd like to try another example! 
+","{
+  ""category"": ""Subscriptions"",
+  ""subcategory"": ""Subscriptions""
+}",False,False,Spotify Stockholm SE
 06/06/24,"Encard Harcaması, KOFEYNYA PARAGRAF PARI MINSK
 BY, 2.04 USD, işlem kuru 33.019000 TL",67.36,"8.998,37 TL","Encard Harcaması, KOFEYNYA PARAGRAF PARI MINSK
 BY, 2.04 USD, işlem kuru 33.019000 TL","Encard Harcaması, KOFEYNYA PARAGRAF PARI MINSK
-BY, ",Food & Dining,Coffee,-,-,False,True,"KOFEYNYA PARAGRAF PARI MINSK
+BY, 2.04 USD, işlem kuru 33.019000 TL",Food & Dining,Coffee,-,-,False,True,"KOFEYNYA PARAGRAF PARI MINSK
 BY"
 06/06/24,"Encard Harcaması, DIGITALOCEAN.COM +310000000
 NL, 11.57 USD, işlem kuru 33.030000 TL",382.16,"8.616,21 TL","Encard Harcaması, DIGITALOCEAN.COM +310000000
 NL, 11.57 USD, işlem kuru 33.030000 TL","Encard Harcaması, DIGITALOCEAN.COM +310000000
-NL, ",Uncategorized,Uncategorized,"Okay, I understand the task. 
+NL, 11.57 USD, işlem kuru 33.030000 TL",Business & Services,Cloud Server Payments,"Main Category: Business & Services
+Subcategory: Cloud Server Payments 
 
-Give me a string record, and I will identify the Main Category and Subcategory based on your provided rules.  
-","Sure, here is a string record that you can use to identify the main category and subcategory:
 
-```
-{""category"": ""Electronics"", ""subcategory"": ""Mobile Phones""}
-```
-
-This record indicates that the main category is ""Electronics"" and the subcategory is ""Mobile Phones"".",False,False,"DIGITALOCEAN.COM +310000000
+Let me know if you have any other records to classify!  
+","{
+  ""category"": ""Business & Services"",
+  ""subcategory"": ""Cloud Server Payments""
+}",False,False,"DIGITALOCEAN.COM +310000000
 NL"
 06/06/24,"Diğer, 5351772730218144 nolu kart Yurt Dışı POS satış
 ters işlem.",-382.16,"8.998,37 TL","Diğer, 5351772730218144 nolu kart Yurt Dışı POS satış
@@ -350,314 +240,237 @@ ters işlem.",Cash Withdraw,Cash Withdraw,from cache,from cache,True,False,
 06/06/24,"Encard Harcaması, KAFE BSB MINSK BY,
 25.78 USD, işlem kuru 33.030000 TL",851.51,"8.146,86 TL","Encard Harcaması, KAFE BSB MINSK BY,
 25.78 USD, işlem kuru 33.030000 TL","Encard Harcaması, KAFE BSB MINSK BY,
-",Uncategorized,Uncategorized,"Okay, I understand the task. 
-
-Give me a string record, and I will identify its main category and subcategory based on the provided rules.  
-
-For example, you can give me something like:
-
-""APPLE Music Subscription"" 
-""Getir grocery delivery""
-""Tickets to Taylor Swift concert"" 
+25.78 USD, işlem kuru 33.030000 TL",Business & Services,Cloud Server Payments,"Main Category: Business & Services
+Subcategory: Cloud Server Payments 
 
 
-Let's get started! 
-","Sure, here's an example of a string and the corresponding response:
+Let me explain why:
 
-```
-text = ""APPLE Music Subscription""
+* **The Text:** ""Encard Harcaması"" likely refers to a payment made using an Encard (a type of prepaid card often used for online transactions).  ""KAFE BSB MINSK BY"" suggests a connection to a server or service provider located in Minsk, Belarus. 
+* **Cloud Server Payments:** This subcategory fits because:
+    * The record involves a payment transaction.
+    *  The description hints at an online service (""Encard Harcaması"") potentially related to cloud computing (""KAFE BSB MINSK BY"" could indicate a server location).
 
-result = {
-  'category': 'Entertainment',
-  'subcategory': 'Music'
-}
-```
 
-**Explanation:**
 
-* The string is first split into a list of words using the `split()` method.
-* The first word of the list is the main category, and the second word is the subcategory.
-* The response is then created with the specified category and subcategory keys.
 
-**Note:**
-
-The code assumes that the string is a valid sentence. If the string is not well-formed, the results may be inaccurate.",False,False,KAFE BSB MINSK BY
+Let me know if you have any other strings you'd like me to classify!","{
+  ""category"": ""Business & Services"",
+  ""subcategory"": ""Cloud Server Payments""
+}",False,False,KAFE BSB MINSK BY
 07/06/24,"Encard Harcaması, APPLE.COM/BILL APPLE.COM/BIL
 IE, 19.99 TRY, işlem kuru 33.045000 TL",19.99,"8.126,87 TL","Encard Harcaması, APPLE.COM/BILL APPLE.COM/BIL
 IE, 19.99 TRY, işlem kuru 33.045000 TL","Encard Harcaması, APPLE.COM/BILL APPLE.COM/BIL
-IE, 19.99 TRY",Uncategorized,Uncategorized,"Okay, I understand. 
+IE, 19.99 TRY, işlem kuru 33.045000 TL",Subscriptions,Subscriptions,"Main Category: Subscriptions
 
-I will analyze each string and provide the main category and subcategory based on your provided structure. Remember, I won't use the ""rules"" sections for direct classification but will keep them in mind for context if needed. 
+Subcategory: Subscriptions 
 
 
-Let me know when you're ready with the first string!  
-",I understand. I'm ready to analyze the first string. Please provide the string and I will extract the main category and subcategory from it.,False,False,"APPLE.COM/BILL APPLE.COM/BIL
+Let me know if you have any other records to classify!  
+","{
+  ""category"": ""Subscriptions"",
+  ""subcategory"": ""Subscriptions""
+}",False,False,"APPLE.COM/BILL APPLE.COM/BIL
 IE"
 07/06/24,"Encard Harcaması, A MEDIUM CORPORATION SAN
 FRANCISCO US, 5.00 USD, işlem kuru 32.975000 TL",164.88,"7.961,99 TL","Encard Harcaması, A MEDIUM CORPORATION SAN
 FRANCISCO US, 5.00 USD, işlem kuru 32.975000 TL","Encard Harcaması, A MEDIUM CORPORATION SAN
-FRANCISCO US, ",Subscriptions,Subscriptions,-,-,False,True,"A MEDIUM CORPORATION SAN
+FRANCISCO US, 5.00 USD, işlem kuru 32.975000 TL",Subscriptions,Subscriptions,-,-,False,True,"A MEDIUM CORPORATION SAN
 FRANCISCO US"
 08/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 4.37 USD, işlem kuru 33.350000 TL",145.74,"7.816,25 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 4.37 USD, işlem kuru 33.350000 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+4.37 USD, işlem kuru 33.350000 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 08/06/24,"Encard Harcaması, SHOP ""EUROOPT PRIME"" MINSK
 BY, 25.99 USD, işlem kuru 33.350000 TL",866.77,"6.949,48 TL","Encard Harcaması, SHOP ""EUROOPT PRIME"" MINSK
 BY, 25.99 USD, işlem kuru 33.350000 TL","Encard Harcaması, SHOP ""EUROOPT PRIME"" MINSK
-BY, ",Uncategorized,Uncategorized,"Okay, I understand.  
-
-Please provide me with the string record you want me to classify. I'll identify the main category and subcategory based on your provided structure. 
-","I am unable to access external sources or provide personal opinions or preferences, including those about specific types of information. Therefore, I cannot provide the information you requested.",False,False,"SHOP ""EUROOPT PRIME"" MINSK
+BY, 25.99 USD, işlem kuru 33.350000 TL",Shopping,Technology Items,"Main Category: Shopping
+Subcategory: Technology Items 
+","{""category"": ""Shopping"", ""subcategory"": ""Technology Items""}",False,False,"SHOP ""EUROOPT PRIME"" MINSK
 BY"
 08/06/24,"Encard Harcaması, SHOP MINSK BY,
 3.96 USD, işlem kuru 33.350000 TL",132.07,"6.817,41 TL","Encard Harcaması, SHOP MINSK BY,
 3.96 USD, işlem kuru 33.350000 TL","Encard Harcaması, SHOP MINSK BY,
-",Uncategorized,Uncategorized,"Please provide me with the string record you want me to classify. 
+3.96 USD, işlem kuru 33.350000 TL",Shopping,Technology Items,"Main Category:  Shopping
 
-For example, you can ask:
-
-""What is the main category and subcategory for this record: 'Netflix subscription payment'"" 
-
-
-I'll then identify the main category and subcategory based on your provided rules.  
-",I'm unable to provide a string record for you to classify. I do not have access to external information sources or the ability to search for specific keywords or phrases.,False,False,SHOP MINSK BY
+Subcategory:  Technology Items 
+","{
+  ""category"": ""Shopping"",
+  ""subcategory"": ""Technology Items""
+}",False,False,SHOP MINSK BY
 08/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 3.33 USD, işlem kuru 33.350000 TL",111.06,"6.706,35 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 3.33 USD, işlem kuru 33.350000 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+3.33 USD, işlem kuru 33.350000 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 08/06/24,"Encard Harcaması, I.-SHOP WWW.PZZ.BY PAR g.p.
 MACHULI BY, 18.16 USD, işlem kuru 33.350000 TL",605.64,"6.100,71 TL","Encard Harcaması, I.-SHOP WWW.PZZ.BY PAR g.p.
 MACHULI BY, 18.16 USD, işlem kuru 33.350000 TL","Encard Harcaması, I.-SHOP WWW.PZZ.BY PAR g.p.
-MACHULI BY, ",Food & Dining,Restaurants,from cache,from cache,False,True,"I.-SHOP WWW.PZZ.BY PAR g.p.
+MACHULI BY, 18.16 USD, işlem kuru 33.350000 TL",Food & Dining,Restaurants,from cache,from cache,False,True,"I.-SHOP WWW.PZZ.BY PAR g.p.
 MACHULI BY"
 09/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 3.11 USD, işlem kuru 33.350000 TL",103.72,"5.996,99 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 3.11 USD, işlem kuru 33.350000 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+3.11 USD, işlem kuru 33.350000 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 09/06/24,"Gelen Transfer, ENES ESVET KUZUCU, Bireysel Ödeme",-14000.0,"19.996,99 TL","Gelen Transfer, ENES ESVET KUZUCU, Bireysel Ödeme","Gelen Transfer, ENES ESVET KUZUCU, Bireysel Ödeme",Outgoing P2P Transfers,Outgoing Money,from cache,from cache,True,False,"Gelen Transfer, ENES ESVET KUZUCU"
 09/06/24,"Para Çekme, Yurtdışında ATM'den para çekme, 251.33
 USD, işlem kuru 33.355000 TL.",8383.11,"11.613,88 TL","Para Çekme, Yurtdışında ATM'den para çekme, 251.33
 USD, işlem kuru 33.355000 TL.","Para Çekme, Yurtdışında ATM'den para çekme, 251.33
-USD.",Cash Withdraw,Cash Withdraw,from cache,from cache,True,False,Yurtdışında ATM'den para çekme
+USD, işlem kuru 33.355000 TL.",Cash Withdraw,Cash Withdraw,from cache,from cache,True,False,Yurtdışında ATM'den para çekme
 09/06/24,"Masraf/Ücret, Yurtdışında ATM'den para çekme komisyon.",100.07,"11.513,81 TL","Masraf/Ücret, Yurtdışında ATM'den para çekme komisyon.","Masraf/Ücret, Yurtdışında ATM'den para çekme komisyon.",Cash Withdraw,Cash Withdraw,from cache,from cache,True,False,
 09/06/24,"Masraf/Ücret, Yurtdışında ATM'den para çekme BSMV.",5.0,"11.508,81 TL","Masraf/Ücret, Yurtdışında ATM'den para çekme BSMV.","Masraf/Ücret, Yurtdışında ATM'den para çekme BSMV.",Cash Withdraw,Cash Withdraw,from cache,from cache,True,False,
 09/06/24,"Encard Harcaması, SHOP MINSK BY,
 3.60 USD, işlem kuru 33.350000 TL",120.06,"11.388,75 TL","Encard Harcaması, SHOP MINSK BY,
 3.60 USD, işlem kuru 33.350000 TL","Encard Harcaması, SHOP MINSK BY,
-",Uncategorized,Uncategorized,from cache,from cache,False,False,SHOP MINSK BY
+3.60 USD, işlem kuru 33.350000 TL",Shopping,Technology Items,from cache,from cache,False,False,SHOP MINSK BY
 09/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 0.88 USD, işlem kuru 33.350000 TL",29.35,"11.359,40 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 0.88 USD, işlem kuru 33.350000 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+0.88 USD, işlem kuru 33.350000 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 09/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 1.88 USD, işlem kuru 33.350000 TL",62.7,"11.296,70 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 1.88 USD, işlem kuru 33.350000 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+1.88 USD, işlem kuru 33.350000 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 09/06/24,"Encard Harcaması, Gipermarket Gippo Minsk BY,
 0.46 USD, işlem kuru 33.350000 TL",15.34,"11.281,36 TL","Encard Harcaması, Gipermarket Gippo Minsk BY,
 0.46 USD, işlem kuru 33.350000 TL","Encard Harcaması, Gipermarket Gippo Minsk BY,
-",Uncategorized,Uncategorized,from cache,from cache,False,False,Gipermarket Gippo Minsk BY
+0.46 USD, işlem kuru 33.350000 TL",Shopping,Clothes,from cache,from cache,False,False,Gipermarket Gippo Minsk BY
 09/06/24,"Encard Harcaması, Restoran Ramiz Minsk BY,
 15.24 USD, işlem kuru 33.350000 TL",508.25,"10.773,11 TL","Encard Harcaması, Restoran Ramiz Minsk BY,
 15.24 USD, işlem kuru 33.350000 TL","Encard Harcaması, Restoran Ramiz Minsk BY,
-",Uncategorized,Uncategorized,from cache,from cache,False,False,Restoran Ramiz Minsk BY
+15.24 USD, işlem kuru 33.350000 TL",Business & Services,Cloud Server Payments,from cache,from cache,False,False,Restoran Ramiz Minsk BY
 09/06/24,"Encard Harcaması, NAME-CHEAP.COM* E5BFBR
 +13233752822 US, 165.95 USD, işlem kuru 33.350000
 TL",5534.43,"5.238,68 TL","Encard Harcaması, NAME-CHEAP.COM* E5BFBR
 +13233752822 US, 165.95 USD, işlem kuru 33.350000
 TL","Encard Harcaması, NAME-CHEAP.COM* E5BFBR
-+13233752822 US, , işlem kuru 33.350000
-TL",Uncategorized,Uncategorized,"Okay, I understand.  
++13233752822 US, 165.95 USD, işlem kuru 33.350000
+TL",Business & Services,Cloud Server Payments,"Main Category: Business & Services
 
-Please provide me with the string record you want me to classify, and I will do my best to determine the main category and subcategory based on the rules you've provided. 
+Subcategory: Cloud Server Payments  
 
 
-For example, you can give me a record like:
-
-""APPLE iTunes subscription payment"" 
-
-And I will tell you:
-
-* **Main Category:** Subscriptions
-* **Subcategory:** Subscriptions  
-","Sure, here's an example:
-
-**Input Text:**
-
-```
-APPLE iTunes subscription payment
-```
-
-**Output:**
-
-```
-{'category': 'Subscriptions', 'subcategory': 'Subscriptions'}
-```",False,False,"NAME-CHEAP.COM* E5BFBR
+Let me know if you'd like to classify another string! 
+","{
+  ""category"": ""Business & Services"",
+  ""subcategory"": ""Cloud Server Payments""
+}",False,False,"NAME-CHEAP.COM* E5BFBR
 +13233752822 US"
 09/06/24,"Encard Harcaması, KAFE-PEKARNYA ""BULOCHK MINSK
 BY, 1.88 USD, işlem kuru 33.350000 TL",62.7,"5.175,98 TL","Encard Harcaması, KAFE-PEKARNYA ""BULOCHK MINSK
 BY, 1.88 USD, işlem kuru 33.350000 TL","Encard Harcaması, KAFE-PEKARNYA ""BULOCHK MINSK
-BY, ",Uncategorized,Uncategorized,from cache,from cache,False,False,"KAFE-PEKARNYA ""BULOCHK MINSK
+BY, 1.88 USD, işlem kuru 33.350000 TL",Personal Care,Personal Grooming,from cache,from cache,False,False,"KAFE-PEKARNYA ""BULOCHK MINSK
 BY"
 09/06/24,"Encard Harcaması, KOFEYNYA PARAGRAF PARI MINSK
 BY, 2.04 USD, işlem kuru 33.350000 TL",68.03,"5.107,95 TL","Encard Harcaması, KOFEYNYA PARAGRAF PARI MINSK
 BY, 2.04 USD, işlem kuru 33.350000 TL","Encard Harcaması, KOFEYNYA PARAGRAF PARI MINSK
-BY, ",Food & Dining,Coffee,from cache,from cache,False,True,"KOFEYNYA PARAGRAF PARI MINSK
+BY, 2.04 USD, işlem kuru 33.350000 TL",Food & Dining,Coffee,from cache,from cache,False,True,"KOFEYNYA PARAGRAF PARI MINSK
 BY"
 09/06/24,"Encard Harcaması, FIGMA MONTHLY RENEWAL
 +14158905404 US, 15.00 USD, işlem kuru 33.350000 TL",500.25,"4.607,70 TL","Encard Harcaması, FIGMA MONTHLY RENEWAL
 +14158905404 US, 15.00 USD, işlem kuru 33.350000 TL","Encard Harcaması, FIGMA MONTHLY RENEWAL
-+14158905404 US, ",Subscriptions,Subscriptions,"You're describing a system for categorizing text records, like expense descriptions. Here's how you can approach this task based on the rules you provided. 
++14158905404 US, 15.00 USD, işlem kuru 33.350000 TL",Subscriptions,Subscriptions,"Main Category: Subscriptions
 
-**Step-by-Step Process:**
-
-1. **Main Category Identification:** Examine the record's keywords and general context to determine the most likely main category.  Some examples:
-   * ""Netflix subscription"" -> Main Category: Subscriptions
-   * ""Dinner at Italian restaurant"" -> Main Category: Food & Dining 
-   * ""Amazon purchase of new headphones"" -> Main Category: Shopping
-
-2. **Subcategory Determination:** Within the identified main category, look for more specific terms to pinpoint the subcategory.
-   * ""Grocery shopping at Walmart"" -> Main Category: Food & Dining; Subcategory: Groceries
-   * ""Monthly electricity bill"" -> Main Category: Utilities; Subcategory: Electricity 
-
-3. **Leveraging Rules:** If a record presents ambiguity, use the 'rules' section for guidance:
-   *  ""Getır delivery of clothes worth $60"" -> Shopping; Subcategory: Technology Items (because getir cost is more than $50). Note that this rule overrides the general assumption about ""getır"".
-
-
-**Important Considerations:**
-
-* **Ambiguity:** Some records might be difficult to categorize definitively. In these cases, you may need to:
-    * Assign a broader subcategory if a specific one isn't clear.
-    * Develop additional rules or strategies for handling edge cases.
-* **Data Quality:** The accuracy of your categorization depends on the quality of your data. Make sure expense descriptions are as detailed and consistent as possible.
-
-**Example Implementation (Conceptual):**
-
-
-```python
-# Simplified example, requires more robust logic in a real system
-
-def categorize_expense(record): 
-  """"""Categorizes an expense record based on keywords and rules.""""""
-
-  if ""subscription"" in record.lower(): # Main category: Subscriptions
-    return {""category"": ""Subscriptions"", ""subcategory"": ""Subscriptions""}
-  elif ""electricity"" in record.lower() or ""water"" in record.lower() or ""gas"" in record.lower(): 
-    return {""category"": ""Utilities"", ""subcategory"": ""Electricity and Water and Gas""} # Main category: Utilities
-
-  # Add more rules for other categories...
-
-  return {""category"": ""Unknown"", ""subcategory"": ""Uncategorized""} 
-
-
-
-# Example usage
-expense_record = ""Monthly electricity bill""
-category_result = categorize_expense(expense_record)
-print(f""Category: {category_result['category']}, Subcategory: {category_result['subcategory']}"")  
-
-```
-
-
-Let me know if you have any more questions or want to explore specific categorization scenarios.","{
- 'category': ""Subscriptions"",
- 'subcategory': ""Subscriptions""
-}",False,False,"FIGMA MONTHLY RENEWAL
+Subcategory: Subscriptions 
+","{
+          ""category"": ""Subscriptions"",
+          ""subcategory"": ""Subscriptions""
+        }",False,False,"FIGMA MONTHLY RENEWAL
 +14158905404 US"
 09/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 2.45 USD, işlem kuru 33.350000 TL",81.71,"4.525,99 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 2.45 USD, işlem kuru 33.350000 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+2.45 USD, işlem kuru 33.350000 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 10/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 2.20 USD, işlem kuru 32.910000 TL",72.4,"4.453,59 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 2.20 USD, işlem kuru 32.910000 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+2.20 USD, işlem kuru 32.910000 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 10/06/24,"Encard Harcaması, MASTERS BARBERSHOP MINSK
 BY, 25.13 USD, işlem kuru 32.889000 TL",826.5,"3.627,09 TL","Encard Harcaması, MASTERS BARBERSHOP MINSK
 BY, 25.13 USD, işlem kuru 32.889000 TL","Encard Harcaması, MASTERS BARBERSHOP MINSK
-BY, ",Uncategorized,Uncategorized,"Okay, I understand the task.  
+BY, 25.13 USD, işlem kuru 32.889000 TL",Personal Care,Personal Grooming,"Main Category: Personal Care
 
-Give me a string record, and I will identify the Main Category and Subcategory based on your provided rules. 
-
-For example, you can give me something like:
-
-""APPLE music subscription payment"" 
+Subcategory: Personal Grooming 
 
 
-Let's begin! 😊 
-","Sure, here is a string record that you can use to test the function:
-
-```
-""APPLE music subscription payment""
-```
-
-The function will identify the main category and subcategory as follows:
-
-```
-{ 'category': 'APPLE', 'subcategory': 'music' }
-```",False,False,"MASTERS BARBERSHOP MINSK
+Let me know if you have any other strings you'd like me to classify!  
+","{
+          ""category"": ""Personal Care"",
+          ""subcategory"": ""Personal Grooming""
+        }
+",False,False,"MASTERS BARBERSHOP MINSK
 BY"
 10/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 2.86 USD, işlem kuru 32.855000 TL",93.97,"3.533,12 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 2.86 USD, işlem kuru 32.855000 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+2.86 USD, işlem kuru 32.855000 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 10/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 0.85 USD, işlem kuru 32.845000 TL",27.92,"3.505,20 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 0.85 USD, işlem kuru 32.845000 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+0.85 USD, işlem kuru 32.845000 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 10/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 2.10 USD, işlem kuru 32.830000 TL",68.94,"3.436,26 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 2.10 USD, işlem kuru 32.830000 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+2.10 USD, işlem kuru 32.830000 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 10/06/24,"Encard Harcaması, RESTAURANT RAMIZ Minsk
 BY, 16.18 USD, işlem kuru 32.885000 TL",532.08,"2.904,18 TL","Encard Harcaması, RESTAURANT RAMIZ Minsk
 BY, 16.18 USD, işlem kuru 32.885000 TL","Encard Harcaması, RESTAURANT RAMIZ Minsk
-BY, ",Uncategorized,Uncategorized,"Okay, I understand the task.  
+BY, 16.18 USD, işlem kuru 32.885000 TL",Business & Services,Cloud Server Payments,"Main Category: Business & Services 
 
-Please provide me with a string record so I can identify the main category and subcategory. 
-",I am unable to provide you with a string record that contains personal or sensitive information.,False,False,"RESTAURANT RAMIZ Minsk
+Subcategory:  Cloud Server Payments 
+
+
+Let me explain my reasoning:
+
+* **""Encard Harcaması""** translates to ""Encard Charge"" suggesting a payment transaction.
+* **""RESTAURANT RAMIZ Minsk BY""** indicates a restaurant in Minsk, Belarus.
+* While this points towards Entertainment/Dining, the presence of  currency (""USD"", ""TL"") and the phrase ""işlem kuru"" (exchange rate) strongly suggest a financial transaction rather than simply dining.
+
+
+Let me know if you have any other strings to classify!","{
+  ""category"": ""Business & Services"",
+  ""subcategory"": ""Cloud Server Payments""
+}",False,False,"RESTAURANT RAMIZ Minsk
 BY"
 10/06/24,"Encard Harcaması, KAFE-PEKARNYA ""BULOCHK MINSK
 BY, 1.88 USD, işlem kuru 33.220500 TL",62.45,"2.841,73 TL","Encard Harcaması, KAFE-PEKARNYA ""BULOCHK MINSK
 BY, 1.88 USD, işlem kuru 33.220500 TL","Encard Harcaması, KAFE-PEKARNYA ""BULOCHK MINSK
-BY, ",Uncategorized,Uncategorized,from cache,from cache,False,False,"KAFE-PEKARNYA ""BULOCHK MINSK
+BY, 1.88 USD, işlem kuru 33.220500 TL",Personal Care,Personal Grooming,from cache,from cache,False,False,"KAFE-PEKARNYA ""BULOCHK MINSK
 BY"
 10/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 4.24 USD, işlem kuru 33.239500 TL",140.94,"2.700,79 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 4.24 USD, işlem kuru 33.239500 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+4.24 USD, işlem kuru 33.239500 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 10/06/24,"Encard Harcaması, KOFEYNYA PARAGRAF PARI MINSK
 BY, 5.18 USD, işlem kuru 33.239500 TL",172.18,"2.528,61 TL","Encard Harcaması, KOFEYNYA PARAGRAF PARI MINSK
 BY, 5.18 USD, işlem kuru 33.239500 TL","Encard Harcaması, KOFEYNYA PARAGRAF PARI MINSK
-BY, ",Food & Dining,Coffee,from cache,from cache,False,True,"KOFEYNYA PARAGRAF PARI MINSK
+BY, 5.18 USD, işlem kuru 33.239500 TL",Food & Dining,Coffee,from cache,from cache,False,True,"KOFEYNYA PARAGRAF PARI MINSK
 BY"
 10/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 2.42 USD, işlem kuru 33.180000 TL",80.3,"2.448,31 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 2.42 USD, işlem kuru 33.180000 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+2.42 USD, işlem kuru 33.180000 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 11/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 2.60 USD, işlem kuru 32.907500 TL",85.56,"2.362,75 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 2.60 USD, işlem kuru 32.907500 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+2.60 USD, işlem kuru 32.907500 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 11/06/24,"Encard Harcaması, RESTAURANT RAMIZ Minsk
 BY, 16.95 USD, işlem kuru 32.907000 TL",557.77,"1.804,98 TL","Encard Harcaması, RESTAURANT RAMIZ Minsk
 BY, 16.95 USD, işlem kuru 32.907000 TL","Encard Harcaması, RESTAURANT RAMIZ Minsk
-BY, ",Uncategorized,Uncategorized,from cache,from cache,False,False,"RESTAURANT RAMIZ Minsk
+BY, 16.95 USD, işlem kuru 32.907000 TL",Business & Services,Cloud Server Payments,from cache,from cache,False,False,"RESTAURANT RAMIZ Minsk
 BY"
 11/06/24,"Encard Harcaması, Gipermarket Gippo Minsk BY,
 0.46 USD, işlem kuru 32.904500 TL",15.14,"1.789,84 TL","Encard Harcaması, Gipermarket Gippo Minsk BY,
 0.46 USD, işlem kuru 32.904500 TL","Encard Harcaması, Gipermarket Gippo Minsk BY,
-",Uncategorized,Uncategorized,from cache,from cache,False,False,Gipermarket Gippo Minsk BY
+0.46 USD, işlem kuru 32.904500 TL",Shopping,Clothes,from cache,from cache,False,False,Gipermarket Gippo Minsk BY
 11/06/24,"Encard Harcaması, KOFEYNYA PARAGRAF PARI MINSK
 BY, 2.20 USD, işlem kuru 33.140000 TL",72.91,"1.716,93 TL","Encard Harcaması, KOFEYNYA PARAGRAF PARI MINSK
 BY, 2.20 USD, işlem kuru 33.140000 TL","Encard Harcaması, KOFEYNYA PARAGRAF PARI MINSK
-BY, ",Food & Dining,Coffee,from cache,from cache,False,True,"KOFEYNYA PARAGRAF PARI MINSK
+BY, 2.20 USD, işlem kuru 33.140000 TL",Food & Dining,Coffee,from cache,from cache,False,True,"KOFEYNYA PARAGRAF PARI MINSK
 BY"
 12/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 0.97 USD, işlem kuru 32.902500 TL",31.92,"1.685,01 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 0.97 USD, işlem kuru 32.902500 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+0.97 USD, işlem kuru 32.902500 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 12/06/24,"Diğer, 5351772730218144 nolu kart Yurt Dışı POS satış
 ters işlem.",-31.92,"1.716,93 TL","Diğer, 5351772730218144 nolu kart Yurt Dışı POS satış
 ters işlem.","Diğer, 5351772730218144 nolu kart Yurt Dışı POS satış
@@ -665,87 +478,83 @@ ters işlem.",Cash Withdraw,Cash Withdraw,from cache,from cache,True,False,
 12/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 3.99 USD, işlem kuru 32.909500 TL",131.31,"1.585,62 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 3.99 USD, işlem kuru 32.909500 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+3.99 USD, işlem kuru 32.909500 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 12/06/24,"Encard Harcaması, Restoran Ramiz Minsk BY,
 24.32 USD, işlem kuru 32.840000 TL",798.67,"786,95 TL","Encard Harcaması, Restoran Ramiz Minsk BY,
 24.32 USD, işlem kuru 32.840000 TL","Encard Harcaması, Restoran Ramiz Minsk BY,
-",Uncategorized,Uncategorized,from cache,from cache,False,False,Restoran Ramiz Minsk BY
+24.32 USD, işlem kuru 32.840000 TL",Business & Services,Cloud Server Payments,from cache,from cache,False,False,Restoran Ramiz Minsk BY
 12/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 3.42 USD, işlem kuru 32.820000 TL",112.24,"674,71 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 3.42 USD, işlem kuru 32.820000 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+3.42 USD, işlem kuru 32.820000 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 12/06/24,"Encard Harcaması, Gipermarket Gippo Minsk BY,
 0.36 USD, işlem kuru 33.185000 TL",11.95,"662,76 TL","Encard Harcaması, Gipermarket Gippo Minsk BY,
 0.36 USD, işlem kuru 33.185000 TL","Encard Harcaması, Gipermarket Gippo Minsk BY,
-",Uncategorized,Uncategorized,from cache,from cache,False,False,Gipermarket Gippo Minsk BY
+0.36 USD, işlem kuru 33.185000 TL",Shopping,Clothes,from cache,from cache,False,False,Gipermarket Gippo Minsk BY
 12/06/24,"Encard Harcaması, KOFEYNYA PARAGRAF PARI MINSK
 BY, 2.04 USD, işlem kuru 33.209500 TL",67.75,"595,01 TL","Encard Harcaması, KOFEYNYA PARAGRAF PARI MINSK
 BY, 2.04 USD, işlem kuru 33.209500 TL","Encard Harcaması, KOFEYNYA PARAGRAF PARI MINSK
-BY, ",Food & Dining,Coffee,from cache,from cache,False,True,"KOFEYNYA PARAGRAF PARI MINSK
+BY, 2.04 USD, işlem kuru 33.209500 TL",Food & Dining,Coffee,from cache,from cache,False,True,"KOFEYNYA PARAGRAF PARI MINSK
 BY"
 12/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 3.33 USD, işlem kuru 33.160000 TL",110.42,"484,59 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 3.33 USD, işlem kuru 33.160000 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+3.33 USD, işlem kuru 33.160000 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 12/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 5.14 USD, işlem kuru 33.185500 TL",170.57,"314,02 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 5.14 USD, işlem kuru 33.185500 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+5.14 USD, işlem kuru 33.185500 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 13/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 3.64 USD, işlem kuru 32.870000 TL",119.65,"194,37 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 3.64 USD, işlem kuru 32.870000 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+3.64 USD, işlem kuru 32.870000 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 13/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 3.01 USD, işlem kuru 32.878000 TL",98.96,"95,41 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 3.01 USD, işlem kuru 32.878000 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+3.01 USD, işlem kuru 32.878000 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 13/06/24,"Gelen Transfer, ENES ESVET KUZUCU, Bireysel Ödeme",-10000.0,"10.095,41 TL","Gelen Transfer, ENES ESVET KUZUCU, Bireysel Ödeme","Gelen Transfer, ENES ESVET KUZUCU, Bireysel Ödeme",Outgoing P2P Transfers,Outgoing Money,from cache,from cache,True,False,"Gelen Transfer, ENES ESVET KUZUCU"
 13/06/24,"Encard Harcaması, Restoran Ramiz Minsk BY,
 14.74 USD, işlem kuru 32.877500 TL",484.61,"9.610,80 TL","Encard Harcaması, Restoran Ramiz Minsk BY,
 14.74 USD, işlem kuru 32.877500 TL","Encard Harcaması, Restoran Ramiz Minsk BY,
-",Uncategorized,Uncategorized,from cache,from cache,False,False,Restoran Ramiz Minsk BY
+14.74 USD, işlem kuru 32.877500 TL",Business & Services,Cloud Server Payments,from cache,from cache,False,False,Restoran Ramiz Minsk BY
 13/06/24,"Encard Harcaması, Cinnabon Minsk BY,
 2.82 USD, işlem kuru 33.100000 TL",93.34,"9.517,46 TL","Encard Harcaması, Cinnabon Minsk BY,
 2.82 USD, işlem kuru 33.100000 TL","Encard Harcaması, Cinnabon Minsk BY,
-",Uncategorized,Uncategorized,from cache,from cache,False,False,Cinnabon Minsk BY
+2.82 USD, işlem kuru 33.100000 TL",Business & Services,Cloud Server Payments,from cache,from cache,False,False,Cinnabon Minsk BY
 13/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 3.51 USD, işlem kuru 33.100000 TL",116.18,"9.401,28 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 3.51 USD, işlem kuru 33.100000 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+3.51 USD, işlem kuru 33.100000 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 13/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 2.91 USD, işlem kuru 33.097500 TL",96.31,"9.304,97 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 2.91 USD, işlem kuru 33.097500 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+2.91 USD, işlem kuru 33.097500 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 13/06/24,"Encard Harcaması, KOFEYNYA PARAGRAF PARI MINSK
 BY, 2.03 USD, işlem kuru 33.097500 TL",67.19,"9.237,78 TL","Encard Harcaması, KOFEYNYA PARAGRAF PARI MINSK
 BY, 2.03 USD, işlem kuru 33.097500 TL","Encard Harcaması, KOFEYNYA PARAGRAF PARI MINSK
-BY, ",Food & Dining,Coffee,from cache,from cache,False,True,"KOFEYNYA PARAGRAF PARI MINSK
+BY, 2.03 USD, işlem kuru 33.097500 TL",Food & Dining,Coffee,from cache,from cache,False,True,"KOFEYNYA PARAGRAF PARI MINSK
 BY"
 14/06/24,"Encard Harcaması, APPLE.COM/BILL APPLE.COM/BIL
 IE, 19.99 TRY, işlem kuru 33.230000 TL",19.99,"9.217,79 TL","Encard Harcaması, APPLE.COM/BILL APPLE.COM/BIL
 IE, 19.99 TRY, işlem kuru 33.230000 TL","Encard Harcaması, APPLE.COM/BILL APPLE.COM/BIL
-IE, 19.99 TRY",Uncategorized,Uncategorized,from cache,from cache,False,False,"APPLE.COM/BILL APPLE.COM/BIL
+IE, 19.99 TRY, işlem kuru 33.230000 TL",Subscriptions,Subscriptions,from cache,from cache,False,False,"APPLE.COM/BILL APPLE.COM/BIL
 IE"
 14/06/24,"Encard Harcaması, APPLE.COM/BILL APPLE.COM/BIL
 IE, 107.99 TRY, işlem kuru 33.230000 TL",107.99,"9.109,80 TL","Encard Harcaması, APPLE.COM/BILL APPLE.COM/BIL
 IE, 107.99 TRY, işlem kuru 33.230000 TL","Encard Harcaması, APPLE.COM/BILL APPLE.COM/BIL
-IE, 107.99 TRY",Uncategorized,Uncategorized,from cache,from cache,False,False,"APPLE.COM/BILL APPLE.COM/BIL
+IE, 107.99 TRY, işlem kuru 33.230000 TL",Subscriptions,Subscriptions,from cache,from cache,False,False,"APPLE.COM/BILL APPLE.COM/BIL
 IE"
 14/06/24,"Gelen Transfer, ENES ESVET KUZUCU, Bireysel Ödeme",-10000.0,"19.109,80 TL","Gelen Transfer, ENES ESVET KUZUCU, Bireysel Ödeme","Gelen Transfer, ENES ESVET KUZUCU, Bireysel Ödeme",Outgoing P2P Transfers,Outgoing Money,from cache,from cache,True,False,"Gelen Transfer, ENES ESVET KUZUCU"
 14/06/24,"Giden Transfer, ahmet faruk uçar, Kurban, EFT (FAST)
 sorgu no: 1766841319",8500.0,"10.609,80 TL","Giden Transfer, ahmet faruk uçar, Kurban, EFT (FAST)
 sorgu no: 1766841319","Giden Transfer, ahmet faruk uçar, Kurban, EFT (FAST)
-sorgu no: 1766841319",Uncategorized,Uncategorized,"Okay, I understand the task. 
-
-**Please provide me with the string record you want me to classify.** 
-
-I will then determine the main category and subcategory based on the provided rules. 
-
-
-Let me know when you're ready!  
-","Sure, I understand the task. Please provide me with the text record you want me to classify.
-
-I will then determine the main category and subcategory based on the provided rules and give you the answer in the format you requested.",False,False,"Giden Transfer, ahmet faruk uçar"
+sorgu no: 1766841319",Business & Services,Cash Withdraw,"Main Category: Business & Services 
+Subcategory: Cash Withdraw  
+","{
+          ""category"": ""Business & Services"",
+          ""subcategory"": ""Cash Withdraw""
+        }
+",False,False,"Giden Transfer, ahmet faruk uçar"
 14/06/24,"Gelen Transfer, ENES ESVET KUZUCU, ENES ESVET
 KUZUCU",-23000.0,"33.609,80 TL","Gelen Transfer, ENES ESVET KUZUCU, ENES ESVET
 KUZUCU","Gelen Transfer, ENES ESVET KUZUCU, ENES ESVET
@@ -757,112 +566,94 @@ EFT (FAST) sorgu no: 1768218386",Outgoing P2P Transfers,Outgoing Money,from cach
 14/06/24,"Encard Harcaması, I.-SHOP WWW.PZZ.BY PAR g.p.
 MACHULI BY, 13.07 USD, işlem kuru 33.450500 TL",437.2,"15.672,60 TL","Encard Harcaması, I.-SHOP WWW.PZZ.BY PAR g.p.
 MACHULI BY, 13.07 USD, işlem kuru 33.450500 TL","Encard Harcaması, I.-SHOP WWW.PZZ.BY PAR g.p.
-MACHULI BY, ",Food & Dining,Restaurants,from cache,from cache,False,True,"I.-SHOP WWW.PZZ.BY PAR g.p.
+MACHULI BY, 13.07 USD, işlem kuru 33.450500 TL",Food & Dining,Restaurants,from cache,from cache,False,True,"I.-SHOP WWW.PZZ.BY PAR g.p.
 MACHULI BY"
 15/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 3.66 USD, işlem kuru 33.525000 TL",122.7,"15.549,90 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 3.66 USD, işlem kuru 33.525000 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+3.66 USD, işlem kuru 33.525000 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 15/06/24,"Encard Harcaması, SHOP ""EVROOPT"" MINSK
 BY, 7.69 USD, işlem kuru 33.525000 TL",257.81,"15.292,09 TL","Encard Harcaması, SHOP ""EVROOPT"" MINSK
 BY, 7.69 USD, işlem kuru 33.525000 TL","Encard Harcaması, SHOP ""EVROOPT"" MINSK
-BY, ",Uncategorized,Uncategorized,"Okay, I understand the task. 
-
-Please provide me with the string record you want me to classify.  I'll identify the main category and subcategory based on your provided rules.  
-
-
-For example, you can give me a record like: 
-
-""Apple Music subscription payment"" 
-
-And I will return:
-
-* **Main Category:** Subscriptions
-* **Subcategory:** Subscriptions 
-
-
-Let's get started! 
-","Sure, here's the string record you requested:
-
-{""category"": ""Subscriptions"", ""subcategory"": ""Subscriptions""}
-
-I have extracted the main category and subcategory based on the provided rules.",False,False,"SHOP ""EVROOPT"" MINSK
+BY, 7.69 USD, işlem kuru 33.525000 TL",Shopping,Technology Items,"Main Category:  Shopping
+Subcategory: Technology Items 
+","{
+  ""category"": ""Shopping"",
+  ""subcategory"": ""Technology Items""
+}",False,False,"SHOP ""EVROOPT"" MINSK
 BY"
 15/06/24,"Encard Harcaması, SHOP ""EVROOPT"" MINSK
 BY, 0.42 USD, işlem kuru 33.525000 TL",14.08,"15.278,01 TL","Encard Harcaması, SHOP ""EVROOPT"" MINSK
 BY, 0.42 USD, işlem kuru 33.525000 TL","Encard Harcaması, SHOP ""EVROOPT"" MINSK
-BY, ",Uncategorized,Uncategorized,from cache,from cache,False,False,"SHOP ""EVROOPT"" MINSK
+BY, 0.42 USD, işlem kuru 33.525000 TL",Shopping,Technology Items,from cache,from cache,False,False,"SHOP ""EVROOPT"" MINSK
 BY"
 15/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 3.28 USD, işlem kuru 33.525000 TL",109.96,"15.168,05 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 3.28 USD, işlem kuru 33.525000 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+3.28 USD, işlem kuru 33.525000 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 15/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 1.63 USD, işlem kuru 33.525000 TL",54.65,"15.113,40 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 1.63 USD, işlem kuru 33.525000 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+1.63 USD, işlem kuru 33.525000 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 15/06/24,"Encard Harcaması, KOFEYNYA PARAGRAF PARI MINSK
 BY, 5.00 USD, işlem kuru 33.525000 TL",167.63,"14.945,77 TL","Encard Harcaması, KOFEYNYA PARAGRAF PARI MINSK
 BY, 5.00 USD, işlem kuru 33.525000 TL","Encard Harcaması, KOFEYNYA PARAGRAF PARI MINSK
-BY, ",Food & Dining,Coffee,from cache,from cache,False,True,"KOFEYNYA PARAGRAF PARI MINSK
+BY, 5.00 USD, işlem kuru 33.525000 TL",Food & Dining,Coffee,from cache,from cache,False,True,"KOFEYNYA PARAGRAF PARI MINSK
 BY"
 15/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 5.31 USD, işlem kuru 33.525000 TL",178.02,"14.767,75 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 5.31 USD, işlem kuru 33.525000 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+5.31 USD, işlem kuru 33.525000 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 15/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 4.03 USD, işlem kuru 33.525000 TL",135.11,"14.632,64 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 4.03 USD, işlem kuru 33.525000 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+4.03 USD, işlem kuru 33.525000 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 16/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 6.66 USD, işlem kuru 33.525000 TL",223.28,"14.409,36 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 6.66 USD, işlem kuru 33.525000 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+6.66 USD, işlem kuru 33.525000 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 16/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 4.06 USD, işlem kuru 33.525000 TL",136.11,"14.273,25 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 4.06 USD, işlem kuru 33.525000 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+4.06 USD, işlem kuru 33.525000 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 16/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 3.16 USD, işlem kuru 33.525000 TL",105.94,"14.167,31 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 3.16 USD, işlem kuru 33.525000 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+3.16 USD, işlem kuru 33.525000 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 16/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 2.25 USD, işlem kuru 33.525000 TL",75.43,"14.091,88 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 2.25 USD, işlem kuru 33.525000 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+2.25 USD, işlem kuru 33.525000 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 16/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 3.59 USD, işlem kuru 33.525000 TL",120.35,"13.971,53 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 3.59 USD, işlem kuru 33.525000 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+3.59 USD, işlem kuru 33.525000 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 16/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 2.97 USD, işlem kuru 33.525000 TL",99.57,"13.871,96 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 2.97 USD, işlem kuru 33.525000 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+2.97 USD, işlem kuru 33.525000 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 17/06/24,"Encard Harcaması, Google Tandem App London
 GB, 129.99 TRY, işlem kuru 33.525000 TL",129.99,"13.741,97 TL","Encard Harcaması, Google Tandem App London
 GB, 129.99 TRY, işlem kuru 33.525000 TL","Encard Harcaması, Google Tandem App London
-GB, 129.99 TRY",Uncategorized,Uncategorized,"Okay, I understand the task. 
-
-You want me to classify text records into main categories and subcategories based on the provided rules.  I'll focus on identifying the category and subcategory without considering the ""rules"" section as direct classification instructions. 
-
-**Please provide the text record you want me to classify.** 
-
-
-I'm ready! 
-",I'm ready! Please provide the text record you want me to classify.,False,False,"Google Tandem App London
+GB, 129.99 TRY, işlem kuru 33.525000 TL",Business & Services,Cloud Server Payments,"Main Category:  Business & Services 
+Subcategory: Cloud Server Payments 
+","{
+  ""category"": ""Business & Services"",
+  ""subcategory"": ""Cloud Server Payments""
+}",False,False,"Google Tandem App London
 GB"
 17/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 4.19 USD, işlem kuru 33.525000 TL",140.47,"13.601,50 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 4.19 USD, işlem kuru 33.525000 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+4.19 USD, işlem kuru 33.525000 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 17/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 2.72 USD, işlem kuru 33.525000 TL",91.19,"13.510,31 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 2.72 USD, işlem kuru 33.525000 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+2.72 USD, işlem kuru 33.525000 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 17/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 2.75 USD, işlem kuru 33.590500 TL",92.37,"13.417,94 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 2.75 USD, işlem kuru 33.590500 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+2.75 USD, işlem kuru 33.590500 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 17/06/24,"Gelen Transfer, ENES ESVET KUZUCU, ENES ESVET
 KUZUCU",-11000.0,"24.417,94 TL","Gelen Transfer, ENES ESVET KUZUCU, ENES ESVET
 KUZUCU","Gelen Transfer, ENES ESVET KUZUCU, ENES ESVET
@@ -870,257 +661,190 @@ KUZUCU",Outgoing P2P Transfers,Outgoing Money,from cache,from cache,True,False,"
 17/06/24,"Para Çekme, Yurtdışında ATM'den para çekme, 218.78
 USD, işlem kuru 33.598000 TL.",7350.57,"17.067,37 TL","Para Çekme, Yurtdışında ATM'den para çekme, 218.78
 USD, işlem kuru 33.598000 TL.","Para Çekme, Yurtdışında ATM'den para çekme, 218.78
-USD.",Cash Withdraw,Cash Withdraw,from cache,from cache,True,False,Yurtdışında ATM'den para çekme
+USD, işlem kuru 33.598000 TL.",Cash Withdraw,Cash Withdraw,from cache,from cache,True,False,Yurtdışında ATM'den para çekme
 17/06/24,"Masraf/Ücret, Yurtdışında ATM'den para çekme komisyon.",100.79,"16.966,58 TL","Masraf/Ücret, Yurtdışında ATM'den para çekme komisyon.","Masraf/Ücret, Yurtdışında ATM'den para çekme komisyon.",Cash Withdraw,Cash Withdraw,from cache,from cache,True,False,
 17/06/24,"Masraf/Ücret, Yurtdışında ATM'den para çekme BSMV.",5.04,"16.961,54 TL","Masraf/Ücret, Yurtdışında ATM'den para çekme BSMV.","Masraf/Ücret, Yurtdışında ATM'den para çekme BSMV.",Cash Withdraw,Cash Withdraw,from cache,from cache,True,False,
 17/06/24,"Encard Harcaması, Gipermarket Gippo Minsk BY,
 0.46 USD, işlem kuru 33.593000 TL",15.45,"16.946,09 TL","Encard Harcaması, Gipermarket Gippo Minsk BY,
 0.46 USD, işlem kuru 33.593000 TL","Encard Harcaması, Gipermarket Gippo Minsk BY,
-",Uncategorized,Uncategorized,from cache,from cache,False,False,Gipermarket Gippo Minsk BY
+0.46 USD, işlem kuru 33.593000 TL",Shopping,Clothes,from cache,from cache,False,False,Gipermarket Gippo Minsk BY
 17/06/24,"Encard Harcaması, KOFEYNYA PARAGRAF PARI MINSK
 BY, 2.19 USD, işlem kuru 33.593000 TL",73.57,"16.872,52 TL","Encard Harcaması, KOFEYNYA PARAGRAF PARI MINSK
 BY, 2.19 USD, işlem kuru 33.593000 TL","Encard Harcaması, KOFEYNYA PARAGRAF PARI MINSK
-BY, ",Food & Dining,Coffee,from cache,from cache,False,True,"KOFEYNYA PARAGRAF PARI MINSK
+BY, 2.19 USD, işlem kuru 33.593000 TL",Food & Dining,Coffee,from cache,from cache,False,True,"KOFEYNYA PARAGRAF PARI MINSK
 BY"
 17/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 2.34 USD, işlem kuru 33.575500 TL",78.57,"16.793,95 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 2.34 USD, işlem kuru 33.575500 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+2.34 USD, işlem kuru 33.575500 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 17/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 2.13 USD, işlem kuru 33.575500 TL",71.52,"16.722,43 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 2.13 USD, işlem kuru 33.575500 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+2.13 USD, işlem kuru 33.575500 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 17/06/24,"Encard Harcaması, GRAND CAFE MINSK
 BY, 37.81 USD, işlem kuru 33.575500 TL",1269.49,"15.452,94 TL","Encard Harcaması, GRAND CAFE MINSK
 BY, 37.81 USD, işlem kuru 33.575500 TL","Encard Harcaması, GRAND CAFE MINSK
-BY, ",Uncategorized,Uncategorized,"You've provided a detailed framework for classifying expenses. To help me accurately classify your records, please provide the specific string you want me to analyze.  
+BY, 37.81 USD, işlem kuru 33.575500 TL",Entertainment,Concerts,"Main Category:  Entertainment
 
-For example, you can give me a record like:
-
-* ""Netflix subscription payment"" 
-* ""Bought new headphones from Amazon""
-* ""Gym membership fee""
+Subcategory: Concerts 
 
 
-Once you give me the string, I'll apply the rules and categories you've defined to determine the main category and subcategory.  
-",I understand. Please provide the text you want me to analyze. I will then use the rules and categories you have defined to extract the main category and subcategory and provide you with the answer in the specified format.,False,False,"GRAND CAFE MINSK
+Let me explain why:
+
+* **""Encard Harcaması""** likely translates to ""Encard Expense"", suggesting a payment for entertainment or services.
+* **""GRAND CAFE MINSK BY""** points towards a cafe/establishment with the name ""GRAND CAFE MINSK"" potentially located in Minsk, Belarus. This could be a concert venue. 
+
+While the text doesn't explicitly mention a concert, the combination of these clues strongly suggests an entertainment-related expense, specifically a concert at a cafe/venue.  
+","{
+  ""category"": ""Entertainment"",
+  ""subcategory"": ""Concerts""
+}",False,False,"GRAND CAFE MINSK
 BY"
 17/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 3.91 USD, işlem kuru 33.575500 TL",131.28,"15.321,66 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 3.91 USD, işlem kuru 33.575500 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+3.91 USD, işlem kuru 33.575500 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 18/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 8.25 USD, işlem kuru 33.571000 TL",276.96,"15.044,70 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 8.25 USD, işlem kuru 33.571000 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+8.25 USD, işlem kuru 33.571000 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 18/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 3.03 USD, işlem kuru 33.455000 TL",101.37,"14.943,33 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 3.03 USD, işlem kuru 33.455000 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+3.03 USD, işlem kuru 33.455000 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 18/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 2.12 USD, işlem kuru 33.355000 TL",70.71,"14.872,62 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 2.12 USD, işlem kuru 33.355000 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+2.12 USD, işlem kuru 33.355000 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 18/06/24,"Encard Harcaması, Gipermarket Gippo Minsk BY,
 0.36 USD, işlem kuru 33.355000 TL",12.01,"14.860,61 TL","Encard Harcaması, Gipermarket Gippo Minsk BY,
 0.36 USD, işlem kuru 33.355000 TL","Encard Harcaması, Gipermarket Gippo Minsk BY,
-",Uncategorized,Uncategorized,from cache,from cache,False,False,Gipermarket Gippo Minsk BY
+0.36 USD, işlem kuru 33.355000 TL",Shopping,Clothes,from cache,from cache,False,False,Gipermarket Gippo Minsk BY
 18/06/24,"Encard Harcaması, APPLE.COM/BILL APPLE.COM/BIL
 IE, 31.99 TRY, işlem kuru 33.330000 TL",31.99,"14.828,62 TL","Encard Harcaması, APPLE.COM/BILL APPLE.COM/BIL
 IE, 31.99 TRY, işlem kuru 33.330000 TL","Encard Harcaması, APPLE.COM/BILL APPLE.COM/BIL
-IE, 31.99 TRY",Uncategorized,Uncategorized,from cache,from cache,False,False,"APPLE.COM/BILL APPLE.COM/BIL
+IE, 31.99 TRY, işlem kuru 33.330000 TL",Subscriptions,Subscriptions,from cache,from cache,False,False,"APPLE.COM/BILL APPLE.COM/BIL
 IE"
 18/06/24,"Encard Harcaması, KOFEYNYA PARAGRAF PARI MINSK
 BY, 2.03 USD, işlem kuru 33.345000 TL",67.69,"14.760,93 TL","Encard Harcaması, KOFEYNYA PARAGRAF PARI MINSK
 BY, 2.03 USD, işlem kuru 33.345000 TL","Encard Harcaması, KOFEYNYA PARAGRAF PARI MINSK
-BY, ",Food & Dining,Coffee,from cache,from cache,False,True,"KOFEYNYA PARAGRAF PARI MINSK
+BY, 2.03 USD, işlem kuru 33.345000 TL",Food & Dining,Coffee,from cache,from cache,False,True,"KOFEYNYA PARAGRAF PARI MINSK
 BY"
 18/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 3.11 USD, işlem kuru 33.320000 TL",103.63,"14.657,30 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 3.11 USD, işlem kuru 33.320000 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+3.11 USD, işlem kuru 33.320000 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 18/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 2.64 USD, işlem kuru 33.304000 TL",87.92,"14.569,38 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 2.64 USD, işlem kuru 33.304000 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+2.64 USD, işlem kuru 33.304000 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 19/06/24,"Encard Harcaması, SHOP ""EUROOPT PRIME"" MINSK
 BY, 13.43 USD, işlem kuru 33.304000 TL",447.27,"14.122,11 TL","Encard Harcaması, SHOP ""EUROOPT PRIME"" MINSK
 BY, 13.43 USD, işlem kuru 33.304000 TL","Encard Harcaması, SHOP ""EUROOPT PRIME"" MINSK
-BY, ",Uncategorized,Uncategorized,from cache,from cache,False,False,"SHOP ""EUROOPT PRIME"" MINSK
+BY, 13.43 USD, işlem kuru 33.304000 TL",Shopping,Technology Items,from cache,from cache,False,False,"SHOP ""EUROOPT PRIME"" MINSK
 BY"
 19/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 3.61 USD, işlem kuru 33.240000 TL",120.0,"14.002,11 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 3.61 USD, işlem kuru 33.240000 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+3.61 USD, işlem kuru 33.240000 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 19/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 2.70 USD, işlem kuru 33.290000 TL",89.88,"13.912,23 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 2.70 USD, işlem kuru 33.290000 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+2.70 USD, işlem kuru 33.290000 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 19/06/24,"Encard Harcaması, CTRLF.PLUS +16478049329
 CA, 10.00 USD, işlem kuru 33.290000 TL",332.9,"13.579,33 TL","Encard Harcaması, CTRLF.PLUS +16478049329
 CA, 10.00 USD, işlem kuru 33.290000 TL","Encard Harcaması, CTRLF.PLUS +16478049329
-CA, ",Uncategorized,Uncategorized,"You've provided a detailed classification structure.  
+CA, 10.00 USD, işlem kuru 33.290000 TL",Business & Services,Cloud Server Payments,"Main Category: Business & Services
 
-**To help me classify your records, please provide the string you want me to analyze.** 
-
-For example: 
-
-""Record: APPLE music subscription payment"" 
-
-
-Once you give me the record, I will:
-
-1. **Identify the Main Category:** Determine the broad category it falls under (like ""Health Insurance,"" ""Shopping,"" ""Entertainment,"" etc.).
-2. **Determine the Subcategory:** Narrow down the classification to a specific subcategory within that main category. 
-
-
-
-
-Let's get classifying! 
-","I understand the instructions and am ready to receive the record you want me to analyze. Please provide the string you would like me to analyze, and I will provide the answer in the specified format.",False,False,"CTRLF.PLUS +16478049329
+Subcategory: Cloud Server Payments 
+","{
+  ""category"": ""Business & Services"",
+  ""subcategory"": ""Cloud Server Payments""
+}",False,False,"CTRLF.PLUS +16478049329
 CA"
 19/06/24,"Encard Harcaması, COFFEE LAVAZZA Minsk
 BY, 2.42 USD, işlem kuru 33.290000 TL",80.56,"13.498,77 TL","Encard Harcaması, COFFEE LAVAZZA Minsk
 BY, 2.42 USD, işlem kuru 33.290000 TL","Encard Harcaması, COFFEE LAVAZZA Minsk
-BY, ",Uncategorized,Uncategorized,"Okay, I understand. 
+BY, 2.42 USD, işlem kuru 33.290000 TL",Personal Care,Coffee,"Main Category:  **Personal Care**
 
-You've provided a detailed hierarchical classification structure with rules for each category and subcategory.  I will use this information to classify text strings into their corresponding main categories and subcategories. 
+Subcategory: **Coffee**  
 
-Please provide me with the string you want me to classify, and I'll do my best! 
-",I understand. Please provide me with the text you want me to classify.,False,False,"COFFEE LAVAZZA Minsk
+
+Let me know if you have another string to classify!  
+","{
+  ""category"": ""Personal Care"",
+  ""subcategory"": ""Coffee""
+}",False,False,"COFFEE LAVAZZA Minsk
 BY"
 19/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 2.42 USD, işlem kuru 33.270000 TL",80.51,"13.418,26 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 2.42 USD, işlem kuru 33.270000 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+2.42 USD, işlem kuru 33.270000 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 19/06/24,"Encard Harcaması, KOFEYNYA PARAGRAF PARI MINSK
 BY, 2.04 USD, işlem kuru 33.270000 TL",67.87,"13.350,39 TL","Encard Harcaması, KOFEYNYA PARAGRAF PARI MINSK
 BY, 2.04 USD, işlem kuru 33.270000 TL","Encard Harcaması, KOFEYNYA PARAGRAF PARI MINSK
-BY, ",Food & Dining,Coffee,from cache,from cache,False,True,"KOFEYNYA PARAGRAF PARI MINSK
+BY, 2.04 USD, işlem kuru 33.270000 TL",Food & Dining,Coffee,from cache,from cache,False,True,"KOFEYNYA PARAGRAF PARI MINSK
 BY"
 19/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 4.05 USD, işlem kuru 33.270000 TL",134.74,"13.215,65 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 4.05 USD, işlem kuru 33.270000 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+4.05 USD, işlem kuru 33.270000 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 19/06/24,"Encard Harcaması, I.-SHOP WWW.PZZ.BY PAR g.p.
 MACHULI BY, 10.33 USD, işlem kuru 33.270000 TL",343.68,"12.871,97 TL","Encard Harcaması, I.-SHOP WWW.PZZ.BY PAR g.p.
 MACHULI BY, 10.33 USD, işlem kuru 33.270000 TL","Encard Harcaması, I.-SHOP WWW.PZZ.BY PAR g.p.
-MACHULI BY, ",Food & Dining,Restaurants,from cache,from cache,False,True,"I.-SHOP WWW.PZZ.BY PAR g.p.
+MACHULI BY, 10.33 USD, işlem kuru 33.270000 TL",Food & Dining,Restaurants,from cache,from cache,False,True,"I.-SHOP WWW.PZZ.BY PAR g.p.
 MACHULI BY"
 19/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 2.03 USD, işlem kuru 33.267500 TL",67.53,"12.804,44 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 2.03 USD, işlem kuru 33.267500 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+2.03 USD, işlem kuru 33.267500 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 19/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 1.08 USD, işlem kuru 33.267500 TL",35.93,"12.768,51 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 1.08 USD, işlem kuru 33.267500 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+1.08 USD, işlem kuru 33.267500 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 19/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 1.23 USD, işlem kuru 33.267500 TL",40.92,"12.727,59 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 1.23 USD, işlem kuru 33.267500 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+1.23 USD, işlem kuru 33.267500 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 19/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 3.61 USD, işlem kuru 33.267500 TL",120.1,"12.607,49 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 3.61 USD, işlem kuru 33.267500 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+3.61 USD, işlem kuru 33.267500 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 19/06/24,"Encard Harcaması, GRAND CAFE MINSK
 BY, 28.17 USD, işlem kuru 33.267500 TL",937.15,"11.670,34 TL","Encard Harcaması, GRAND CAFE MINSK
 BY, 28.17 USD, işlem kuru 33.267500 TL","Encard Harcaması, GRAND CAFE MINSK
-BY, ",Uncategorized,Uncategorized,from cache,from cache,False,False,"GRAND CAFE MINSK
+BY, 28.17 USD, işlem kuru 33.267500 TL",Entertainment,Concerts,from cache,from cache,False,False,"GRAND CAFE MINSK
 BY"
 20/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 3.48 USD, işlem kuru 33.267500 TL",115.77,"11.554,57 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 3.48 USD, işlem kuru 33.267500 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+3.48 USD, işlem kuru 33.267500 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 20/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 3.61 USD, işlem kuru 33.104500 TL",119.51,"11.435,06 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 3.61 USD, işlem kuru 33.104500 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+3.61 USD, işlem kuru 33.104500 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 20/06/24,"Encard Harcaması, YANDEX.GO MINSK BY,
 18.20 USD, işlem kuru 33.130000 TL",602.97,"10.832,09 TL","Encard Harcaması, YANDEX.GO MINSK BY,
 18.20 USD, işlem kuru 33.130000 TL","Encard Harcaması, YANDEX.GO MINSK BY,
-",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
+18.20 USD, işlem kuru 33.130000 TL",Transportation,Taxi,from cache,from cache,False,True,YANDEX.GO MINSK BY
 20/06/24,"Encard Harcaması, RBO ""BURGER KING"" MINSK
 BY, 0.36 USD, işlem kuru 33.260000 TL",11.97,"10.820,12 TL","Encard Harcaması, RBO ""BURGER KING"" MINSK
 BY, 0.36 USD, işlem kuru 33.260000 TL","Encard Harcaması, RBO ""BURGER KING"" MINSK
-BY, ",Uncategorized,Uncategorized,"This is a great start to defining a classification system for expense records.  Let's break down how you can approach this task given the structure you've provided. 
+BY, 0.36 USD, işlem kuru 33.260000 TL",Entertainment,Restaurants,"Main Category: Entertainment
 
-**Understanding the Structure**
-
-Your hierarchy clearly defines categories and subcategories, making it easier to apply rules.
-
-* **Main Categories:** These are your broad groups (e.g., Health Insurance, Shopping, Entertainment).
-* **Subcategories:**  These provide more specific breakdowns within each main category (e.g., under ""Shopping,"" you have ""Clothes"" and ""Technology Items"").
-
-**The Classification Process**
-
-1. **Keyword Analysis:** Start by looking for keywords in the expense record that directly match a subcategory. For example:
-   * ""Netflix subscription"" ->  Main Category: Subscriptions, Subcategory: Subscriptions 
-2. **Text-Based Rules:** If keywords aren't conclusive, apply the text-based rules provided within each subcategory. Pay close attention to these examples:
-
-   *  **Shopping > Technology Items:** 
-      * ""APPLE bill $35"" -> Not an item (less than $40)
-      * ""Getir receipt $60"" -> Item (more than $50)
-
-3. **Contextual Clues:** Sometimes, the surrounding text can provide valuable hints:
-   * ""Paid for a gym membership"" -> Main Category: Personal Care, Subcategory: Fitness 
-
-
-**Example Application**
-
-Let's try classifying these records:
-
-* **Record:** ""Starbucks coffee and pastry""
-    * **Main Category:** Food & Dining
-    * **Subcategory:** Coffee  
-* **Record:** ""Monthly Amazon Prime membership""
-    * **Main Category:** Subscriptions
-    * **Subcategory:** Subscriptions 
-
-
-**Important Notes:**
-
-* **Ambiguity:** Some records might be ambiguous. In these cases, you'll need to make a judgment based on the most likely interpretation.  Consider adding rules to handle common ambiguities.
-* **Refinement:** As you classify more records, you'll likely identify areas where your rules need to be refined or expanded.
-
-Let me know if you want to practice classifying more examples!","{
- 'category': 'Food & Dining',
- 'subcategory': 'Coffee'
-}
-
-{
- 'category': 'Subscriptions',
- 'subcategory': 'Subscriptions'
-}
-
-{
- 'category': 'Personal Care',
- 'subcategory': 'Fitness'
-}",False,False,"RBO ""BURGER KING"" MINSK
+Subcategory: Restaurants 
+","{
+          ""category"": ""Entertainment"",
+          ""subcategory"": ""Restaurants""
+        }
+",False,False,"RBO ""BURGER KING"" MINSK
 BY"
-20/06/24,"Diğer, HAVAIST 20 ISTANBUL TR",198.0,"10.622,12 TL","Diğer, HAVAIST 20 ISTANBUL TR","Diğer, HAVAIST 20 ISTANBUL TR",Uncategorized,Uncategorized,"Okay, I'm ready to classify your records.  
-
-Please provide the string record you want me to analyze. 
-
-For example:
-
-""Netflix subscription payment"" 
-
-
-I will then give you the Main Category and Subcategory based on the provided rules.  
-","Sure, here's an example:
-
-**Input:**
-
-```
-""Netflix subscription payment""
-```
-
-**Output:**
-
-```
-{'category': 'Subscription', 'subcategory': 'Netflix'}
-```",False,False,HAVAIST 20 ISTANBUL TR
+20/06/24,"Diğer, HAVAIST 20 ISTANBUL TR",198.0,"10.622,12 TL","Diğer, HAVAIST 20 ISTANBUL TR","Diğer, HAVAIST 20 ISTANBUL TR",Uncategorized,Uncategorized,"Main Category:  Transportation 
+Subcategory:  Air Travel 
+","{
+  ""category"": ""Transportation"",
+  ""subcategory"": ""Air Travel""
+}",False,False,HAVAIST 20 ISTANBUL TR
 20/06/24,"Gelen Transfer, ENES ESVET KUZUCU, ENES ESVET
 KUZUCU",-9500.0,"20.122,12 TL","Gelen Transfer, ENES ESVET KUZUCU, ENES ESVET
 KUZUCU","Gelen Transfer, ENES ESVET KUZUCU, ENES ESVET
@@ -1132,231 +856,138 @@ KUZUCU",Outgoing P2P Transfers,Outgoing Money,from cache,from cache,True,False,"
 21/06/24,"Encard Harcaması, APPLE.COM/BILL APPLE.COM/BIL
 IE, 19.99 TRY, işlem kuru 33.695000 TL",19.99,"9.427,13 TL","Encard Harcaması, APPLE.COM/BILL APPLE.COM/BIL
 IE, 19.99 TRY, işlem kuru 33.695000 TL","Encard Harcaması, APPLE.COM/BILL APPLE.COM/BIL
-IE, 19.99 TRY",Uncategorized,Uncategorized,from cache,from cache,False,False,"APPLE.COM/BILL APPLE.COM/BIL
+IE, 19.99 TRY, işlem kuru 33.695000 TL",Subscriptions,Subscriptions,from cache,from cache,False,False,"APPLE.COM/BILL APPLE.COM/BIL
 IE"
-21/06/24,"Diğer, BEYLIKDUZU WHITE CORNER MISTANBUL TR",946.74,"8.480,39 TL","Diğer, BEYLIKDUZU WHITE CORNER MISTANBUL TR","Diğer, BEYLIKDUZU WHITE CORNER MISTANBUL TR",Uncategorized,Uncategorized,"Okay, I'm ready to classify your records. 
+21/06/24,"Diğer, BEYLIKDUZU WHITE CORNER MISTANBUL TR",946.74,"8.480,39 TL","Diğer, BEYLIKDUZU WHITE CORNER MISTANBUL TR","Diğer, BEYLIKDUZU WHITE CORNER MISTANBUL TR",Personal Care,Personal Grooming,"**Main Category:**  Personal Care 
 
-Please provide me with a string record, and I will identify the main category and subcategory based on the rules you've provided.  
-","Sure, here's an example of a record for classification:
-
-{
-  ""category"": ""Entertainment"",
-  ""subcategory"": ""Movies""
-}
-
-This record indicates that the main category is ""Entertainment"" and the subcategory is ""Movies"".",False,False,BEYLIKDUZU WHITE CORNER MISTANBUL TR
+**Subcategory:** Personal Grooming 
+","{
+  ""category"": ""Personal Care"",
+  ""subcategory"": ""Personal Grooming""
+}",False,False,BEYLIKDUZU WHITE CORNER MISTANBUL TR
 21/06/24,"Encard Harcaması, CANAN ARSLAN ISTANBUL
 TRTR Pos satış",781.0,"7.699,39 TL","Encard Harcaması, CANAN ARSLAN ISTANBUL
 TRTR Pos satış","Encard Harcaması, CANAN ARSLAN ISTANBUL
-TRTR Pos satış",Entertainment,Movies,"Okay, I'm ready to classify expense strings.  
-
-Please provide me with a string like the examples you gave, and I'll do my best to determine the Main Category and Subcategory based on your provided rules. 
-
-
-Let's get started! 
-","{ 'category': 'Entertainment', 'subcategory': 'Movies' }",False,False,"CANAN ARSLAN ISTANBUL
-TRTR Pos satış"
-21/06/24,"Diğer, YILDIZ ECZANESI Istanbul TR",220.77,"7.478,62 TL","Diğer, YILDIZ ECZANESI Istanbul TR","Diğer, YILDIZ ECZANESI Istanbul TR",Shopping,Technology Items,"This is a great framework for building a text classification system!  
-
-It looks like you're laying the groundwork for a system that can automatically categorize spending records. Here's how I understand your structure and how we can approach the task of identifying main categories and subcategories:
-
-**Understanding Your Structure:**
-
-* **Main Categories:** You have a set of high-level categories (Health Insurance, Shopping, Personal Care, etc.) These act as the initial groupings for your spending.
-* **Subcategories:** Each main category is further divided into more specific subcategories (e.g., under ""Shopping,"" you have ""Clothes"" and ""Technology Items""). This granularity allows for more precise categorization.
-* **Rules:** The ""rules"" section provides additional context and logic for certain subcategories. These rules often use keywords or patterns in the text to make finer distinctions.
-
-**How to Approach Classification:**
-
-1. **Keyword Matching:**  Start by looking for keywords within the spending record that directly match those listed in your main categories and subcategories.
-2. **Textual Pattern Recognition:** If keywords aren't immediately clear, look for common phrases or patterns associated with each category (e.g., ""monthly subscription,"" ""gym membership,"" ""online purchase"").
-3. **Rule Application:** When you have a potential subcategory, carefully examine the ""rules"" associated with it. Apply any keyword or pattern-based rules to confirm the classification.
-
-**Example using your provided data:**
-
-**Record:** ""APPLE Store Purchase - $35 headphones""
-
-1. **Keyword Matching:**  ""APPLE Store"" strongly suggests the ""Technology Items"" subcategory.
-2. **Textual Pattern Recognition:** ""Purchase - Headphones"" further reinforces this. 
-3. **Rule Application:**  The rule states that if an APPLE purchase is less than $40, it's not an item but a subscription. However, in this case, the headphones are a physical good, so the rule doesn't apply.
-
-**Final Classification:**
-
-* **Main Category:** Shopping
-* **Subcategory:** Technology Items
-
-
-Let me know if you have more examples you'd like to classify! 
+TRTR Pos satış",Business & Services,Cash Withdraw,"Main Category:  Business & Services 
+Subcategory: Cash Withdraw 
 ","{
-  'category': 'Shopping',
-  'subcategory': 'Technology Items'
+  ""category"": ""Business & Services"",
+  ""subcategory"": ""Cash Withdraw""
+}",False,False,"CANAN ARSLAN ISTANBUL
+TRTR Pos satış"
+21/06/24,"Diğer, YILDIZ ECZANESI Istanbul TR",220.77,"7.478,62 TL","Diğer, YILDIZ ECZANESI Istanbul TR","Diğer, YILDIZ ECZANESI Istanbul TR",Uncategorized,Uncategorized,"Main Category: Medications 
+Subcategory:  undefined 
+","{
+  ""category"": ""Medications"",
+  ""subcategory"": """"
 }",False,False,YILDIZ ECZANESI Istanbul TR
 22/06/24,"Encard Harcaması, PARAM/YEMEK SEPETI ISTANBUL
 TR",720.0,"6.758,62 TL","Encard Harcaması, PARAM/YEMEK SEPETI ISTANBUL
 TR","Encard Harcaması, PARAM/YEMEK SEPETI ISTANBUL
-TR",Uncategorized,Uncategorized,"Okay, I understand the task.  
+TR",Food & Dining,Restaurants,"Main Category:  Food & Dining
+Subcategory: Restaurants 
 
-I'm ready to classify your records. Please provide me with a string record, and I will identify the main category and subcategory based on the rules you've provided. 
 
-
-Let's get started!  
-","I understand the task. Please provide me with a string record, and I will identify the main category and subcategory based on the rules you've provided.
-
-**Example:**
-
-```
-""This is a photo of a dog. It is a pets category and a photography subcategory.""
-```
-
-**Output:**
-
-```
-{
-  ""category"": ""pets"",
-  ""subcategory"": ""photography""
+Let me know if you have any other strings you'd like me to classify! 
+","{
+  ""category"": ""Food & Dining"",
+  ""subcategory"": ""Restaurants""
 }
-```
-
-**Note:** I will remove the words ""like"", ""likely"", and other irrelevant information.",False,False,"PARAM/YEMEK SEPETI ISTANBUL
+",False,False,"PARAM/YEMEK SEPETI ISTANBUL
 TR"
 23/06/24,"Encard Harcaması, OPENAI *CHATGPT SUBSCR
 +14158799686 US, 20.00 USD, işlem kuru 33.780000 TL",675.6,"6.083,02 TL","Encard Harcaması, OPENAI *CHATGPT SUBSCR
 +14158799686 US, 20.00 USD, işlem kuru 33.780000 TL","Encard Harcaması, OPENAI *CHATGPT SUBSCR
-+14158799686 US, ",Uncategorized,Uncategorized,"Okay, I understand. Please provide me with the string record you'd like me to classify. I'll do my best to identify the main category and subcategory based on your provided rules.  
-","I understand. Please provide me with the string record you'd like me to classify. I'll do my best to identify the main category and subcategory based on your provided rules.  
++14158799686 US, 20.00 USD, işlem kuru 33.780000 TL",Subscriptions,Subscriptions,"Main Category: Subscriptions
 
-**Example:**
-```
-{
-  'category': 'sports',
-  'subcategory': 'football'
-}
-```
-
-**Please provide the text record you would like me to classify.**",False,False,"OPENAI *CHATGPT SUBSCR
+Subcategory: Subscriptions  
+","{
+  ""category"": ""Subscriptions"",
+  ""subcategory"": ""Subscriptions""
+}",False,False,"OPENAI *CHATGPT SUBSCR
 +14158799686 US"
 23/06/24,"Gelen Transfer, ENES ESVET KUZUCU, ENES ESVET
 KUZUCU",-10000.0,"16.083,02 TL","Gelen Transfer, ENES ESVET KUZUCU, ENES ESVET
 KUZUCU","Gelen Transfer, ENES ESVET KUZUCU, ENES ESVET
 KUZUCU",Outgoing P2P Transfers,Outgoing Money,from cache,from cache,True,False,"Gelen Transfer, ENES ESVET KUZUCU"
-23/06/24,"Giden Transfer, Göktuğ Sevgil,",8250.0,"7.833,02 TL","Giden Transfer, Göktuğ Sevgil,","Giden Transfer, Göktuğ Sevgil,",Uncategorized,Uncategorized,"Okay, I understand. 
+23/06/24,"Giden Transfer, Göktuğ Sevgil,",8250.0,"7.833,02 TL","Giden Transfer, Göktuğ Sevgil,","Giden Transfer, Göktuğ Sevgil,",Cash Withdraw,Cash Withdraw,"Based on the provided information, the most accurate classification for the string ""Giden Transfer, Göktuğ Sevgil,""  is:
 
-Please provide me with the string record that you want me to classify into a main category and subcategory.  I will do my best to follow your instructions and the rules you've provided. 
-
-
-For example, you can give me a string like:
-
-""Netflix subscription fee"" 
-""Bought new headphones from Amazon""
-""Paid rent for April"" 
+* **Main Category:** Cash Withdraw 
+* **Subcategory:** Cash Withdraw 
 
 
-Let's get started! 
-","I understand. Please provide me with the text you would like me to classify.
+Let me know if you have any other strings you'd like classified! 
+","{
+          ""category"": ""Cash Withdraw"",
+          ""subcategory"": ""Cash Withdraw""
+        }",False,False,"Giden Transfer, Göktuğ Sevgil"
+23/06/24,"Diğer, SBUX IST ESENYURT MARMAR ISTANBUL TR",200.0,"7.633,02 TL","Diğer, SBUX IST ESENYURT MARMAR ISTANBUL TR","Diğer, SBUX IST ESENYURT MARMAR ISTANBUL TR",Entertainment,Movies,"Main Category: Entertainment
 
-**Example Text:**
-
-""Netflix subscription fee""
-
-**Output:**
-
-{ 'category': 'Entertainment', 'subcategory': 'Subscription Services' }",False,False,"Giden Transfer, Göktuğ Sevgil"
-23/06/24,"Diğer, SBUX IST ESENYURT MARMAR ISTANBUL TR",200.0,"7.633,02 TL","Diğer, SBUX IST ESENYURT MARMAR ISTANBUL TR","Diğer, SBUX IST ESENYURT MARMAR ISTANBUL TR",Uncategorized,Uncategorized,"You're asking me to categorize expense strings based on your provided rules.  
-
-I can do that! Please give me an expense string, and I will identify the main category and subcategory for you. 
-
-For example, you could give me:
-
-* ""Netflix subscription""
-* ""Dinner at Italian restaurant""
-* ""Apple iPhone purchase""
+Subcategory: Movies 
 
 
-Let's get started!  
-","I understand. Please provide me with an expense string, and I will categorize it based on the rules you have provided.",False,False,SBUX IST ESENYURT MARMAR ISTANBUL TR
-23/06/24,"Diğer, SALON DIVA ISTANBUL TR",920.0,"6.713,02 TL","Diğer, SALON DIVA ISTANBUL TR","Diğer, SALON DIVA ISTANBUL TR",Uncategorized,Uncategorized,"You've provided a detailed categorization framework! 
+Let me explain:
 
-To effectively use it, please provide me with the **string record** you want to classify. I'll then:
+* **""Diğer""** is Turkish for ""Other.""  This doesn't point to a specific category directly.
+* **""SBUX""** likely refers to Starbucks. While primarily associated with coffee, the location information suggests it could be a movie theater or entertainment venue that also sells Starbucks products.
+* **""ISTANBUL TR""** confirms the location as Istanbul, Turkey. 
 
-1.  **Identify the Main Category:** Analyze the string based on your categories (e.g., Health Insurance, Shopping, Entertainment, etc.).
-2.  **Determine the Subcategory:** Delve deeper into the string to pinpoint the specific subcategory within the identified main category. 
-3.  **Present my answer:** Clearly state both the Main Category and Subcategory for the given record.
+Without more context, the strongest association is with Entertainment, specifically Movies given the potential for a cinema-Starbucks combo. 
 
 
-Let's get started! Give me your first record. 😊 
-",I understand the instructions and am ready to receive your text for analysis. Please provide the string record you would like me to process.,False,False,SALON DIVA ISTANBUL TR
-23/06/24,"Diğer, REFIK CAKIR ISTANBUL TR",180.0,"6.533,02 TL","Diğer, REFIK CAKIR ISTANBUL TR","Diğer, REFIK CAKIR ISTANBUL TR",Uncategorized,Uncategorized,"Okay, I'm ready to classify your records.  
+Let me know if you have any other strings to classify!","{
+  ""category"": ""Entertainment"",
+  ""subcategory"": ""Movies""
+}",False,False,SBUX IST ESENYURT MARMAR ISTANBUL TR
+23/06/24,"Diğer, SALON DIVA ISTANBUL TR",920.0,"6.713,02 TL","Diğer, SALON DIVA ISTANBUL TR","Diğer, SALON DIVA ISTANBUL TR",Personal Care,Personal Grooming,"Main Category: Personal Care
+Subcategory: Personal Grooming 
 
-Please provide the string record you want me to analyze, and I'll give you the main category and subcategory. 
+
+Let me know if you'd like me to analyze another record! 😊  
+","{""category"": ""Personal Care"", ""subcategory"": ""Personal Grooming""}",False,False,SALON DIVA ISTANBUL TR
+23/06/24,"Diğer, REFIK CAKIR ISTANBUL TR",180.0,"6.533,02 TL","Diğer, REFIK CAKIR ISTANBUL TR","Diğer, REFIK CAKIR ISTANBUL TR",Business & Services,Cloud Server Payments,"Main Category: Business & Services 
+Subcategory: Cloud Server Payments 
 
 
-Let's do this! 
-","Sure, I can assist you in analyzing a text and extracting the main category and subcategory. Please provide the text you would like me to analyze, and I will provide you with the specified format.
-
-**Example:**
-
-**Input Text:**
-
-> This is a sample text about the weather. It is about a sunny day, and the temperature is expected to be around 70 degrees Fahrenheit.
-
-**Output Format:**
-
-```
-{'category': 'weather', 'subcategory': 'weather_conditions'}
-```
-
-**Note:** I will remove any extra words and focus on the main category and subcategory.",False,False,REFIK CAKIR ISTANBUL TR
+Let me know if you'd like me to explain my reasoning!  
+","{
+  ""category"": ""Business & Services"",
+  ""subcategory"": ""Cloud Server Payments""
+}",False,False,REFIK CAKIR ISTANBUL TR
 24/06/24,"Giden Transfer, Bensu kayacan, Bireysel Ödeme, EFT
 (FAST) sorgu no: 1791016328",6000.0,"533,02 TL","Giden Transfer, Bensu kayacan, Bireysel Ödeme, EFT
 (FAST) sorgu no: 1791016328","Giden Transfer, Bensu kayacan, Bireysel Ödeme, EFT
 (FAST) sorgu no: 1791016328",Outgoing P2P Transfers,Outgoing Money,.,.,True,False,"Giden Transfer, Bensu kayacan"
 24/06/24,"Gelen Transfer, ENES ESVET KUZUCU, Bireysel Ödeme",-12000.0,"12.533,02 TL","Gelen Transfer, ENES ESVET KUZUCU, Bireysel Ödeme","Gelen Transfer, ENES ESVET KUZUCU, Bireysel Ödeme",Outgoing P2P Transfers,Outgoing Money,from cache,from cache,True,False,"Gelen Transfer, ENES ESVET KUZUCU"
-24/06/24,"Diğer, REFIK CAKIR ISTANBUL TR",22.5,"12.510,52 TL","Diğer, REFIK CAKIR ISTANBUL TR","Diğer, REFIK CAKIR ISTANBUL TR",Uncategorized,Uncategorized,from cache,from cache,False,False,REFIK CAKIR ISTANBUL TR
-25/06/24,"Diğer, MADUR GIDA ISTANBUL TR",310.0,"12.200,52 TL","Diğer, MADUR GIDA ISTANBUL TR","Diğer, MADUR GIDA ISTANBUL TR",Uncategorized,Uncategorized,"Okay, I understand the task.  
-
-Give me a string record, and I'll do my best to identify the main category and subcategory based on the provided rules. 
-
-
-Let's get started!  
-","Sure. Here's a string record for you to analyze:
-
-```
-This is a description of a photograph of a sunset over the ocean.
-```
-
-Based on the given rules, the main category would be ""Image"" and the subcategory would be ""Sunset"".",False,False,MADUR GIDA ISTANBUL TR
-26/06/24,"Diğer, SBUX IST ESENYURT MARMAR ISTANBUL TR",114.0,"12.086,52 TL","Diğer, SBUX IST ESENYURT MARMAR ISTANBUL TR","Diğer, SBUX IST ESENYURT MARMAR ISTANBUL TR",Uncategorized,Uncategorized,from cache,from cache,False,False,SBUX IST ESENYURT MARMAR ISTANBUL TR
+24/06/24,"Diğer, REFIK CAKIR ISTANBUL TR",22.5,"12.510,52 TL","Diğer, REFIK CAKIR ISTANBUL TR","Diğer, REFIK CAKIR ISTANBUL TR",Business & Services,Cloud Server Payments,from cache,from cache,False,False,REFIK CAKIR ISTANBUL TR
+25/06/24,"Diğer, MADUR GIDA ISTANBUL TR",310.0,"12.200,52 TL","Diğer, MADUR GIDA ISTANBUL TR","Diğer, MADUR GIDA ISTANBUL TR",Food & Dining,Groceries,"**Main Category:** Food & Dining 
+**Subcategory:** Groceries  
+","{
+  ""category"": ""Food & Dining"",
+  ""subcategory"": ""Groceries""
+}",False,False,MADUR GIDA ISTANBUL TR
+26/06/24,"Diğer, SBUX IST ESENYURT MARMAR ISTANBUL TR",114.0,"12.086,52 TL","Diğer, SBUX IST ESENYURT MARMAR ISTANBUL TR","Diğer, SBUX IST ESENYURT MARMAR ISTANBUL TR",Entertainment,Movies,from cache,from cache,False,False,SBUX IST ESENYURT MARMAR ISTANBUL TR
 28/06/24,"Encard Harcaması, APPLE.COM/BILL APPLE.COM/BIL
 IE, 19.99 TRY, işlem kuru 34.150000 TL",19.99,"12.066,53 TL","Encard Harcaması, APPLE.COM/BILL APPLE.COM/BIL
 IE, 19.99 TRY, işlem kuru 34.150000 TL","Encard Harcaması, APPLE.COM/BILL APPLE.COM/BIL
-IE, 19.99 TRY",Uncategorized,Uncategorized,from cache,from cache,False,False,"APPLE.COM/BILL APPLE.COM/BIL
+IE, 19.99 TRY, işlem kuru 34.150000 TL",Subscriptions,Subscriptions,from cache,from cache,False,False,"APPLE.COM/BILL APPLE.COM/BIL
 IE"
-28/06/24,"Diğer, REFIK CAKIR ISTANBUL TR",102.5,"11.964,03 TL","Diğer, REFIK CAKIR ISTANBUL TR","Diğer, REFIK CAKIR ISTANBUL TR",Uncategorized,Uncategorized,from cache,from cache,False,False,REFIK CAKIR ISTANBUL TR
-30/06/24,"Diğer, REFIK CAKIR ISTANBUL TR",90.0,"11.874,03 TL","Diğer, REFIK CAKIR ISTANBUL TR","Diğer, REFIK CAKIR ISTANBUL TR",Uncategorized,Uncategorized,from cache,from cache,False,False,REFIK CAKIR ISTANBUL TR
+28/06/24,"Diğer, REFIK CAKIR ISTANBUL TR",102.5,"11.964,03 TL","Diğer, REFIK CAKIR ISTANBUL TR","Diğer, REFIK CAKIR ISTANBUL TR",Business & Services,Cloud Server Payments,from cache,from cache,False,False,REFIK CAKIR ISTANBUL TR
+30/06/24,"Diğer, REFIK CAKIR ISTANBUL TR",90.0,"11.874,03 TL","Diğer, REFIK CAKIR ISTANBUL TR","Diğer, REFIK CAKIR ISTANBUL TR",Business & Services,Cloud Server Payments,from cache,from cache,False,False,REFIK CAKIR ISTANBUL TR
 30/06/24,"Encard Harcaması, Adobe Premiere Pro Saggart, Dubl
 IE, 550.80 TRY, işlem kuru 33.781000 TL",550.8,"11.323,23 TL","Encard Harcaması, Adobe Premiere Pro Saggart, Dubl
 IE, 550.80 TRY, işlem kuru 33.781000 TL","Encard Harcaması, Adobe Premiere Pro Saggart, Dubl
-IE, 550.80 TRY",Uncategorized,Uncategorized,"Okay, I understand the task. 
+IE, 550.80 TRY, işlem kuru 33.781000 TL",Business & Services,Cloud Server Payments,"Main Category: Business & Services
 
-Please provide me with a string record so I can identify the main category and subcategory.  
-","I am unable to provide a string record, as I do not have access to external sources or the capability to conduct the requested search.",False,False,Adobe Premiere Pro Saggart
-30/06/24,"Diğer, EMK GIDA ISTANBUL TR",75.0,"11.248,23 TL","Diğer, EMK GIDA ISTANBUL TR","Diğer, EMK GIDA ISTANBUL TR",Uncategorized,Uncategorized,"Okay, I understand the task. 
-
-You're asking me to categorize text strings based on a provided hierarchy of categories and subcategories.  I should pay attention to keywords within the string to determine both the main category and the specific subcategory. The ""rules"" sections provide additional context but shouldn't directly influence my classification.
-
-**Let's get started! Give me a text string to categorize.** 
-
-
-","Sure, here is an example of a text string and the corresponding output:
-
-```
-{ 'category': 'Business', 'subcategory': 'Marketing' }
-```
-
-**Explanation:**
-
-* **Category**: Business
-* **Subcategory**: Marketing
-
-This output identifies the main category ""Business"" and the specific subcategory ""Marketing"" based on the keywords in the text string.",False,False,EMK GIDA ISTANBUL TR
+Subcategory: Cloud Server Payments  
+","{
+  ""category"": ""Business & Services"",
+  ""subcategory"": ""Cloud Server Payments""
+}",False,False,Adobe Premiere Pro Saggart
+30/06/24,"Diğer, EMK GIDA ISTANBUL TR",75.0,"11.248,23 TL","Diğer, EMK GIDA ISTANBUL TR","Diğer, EMK GIDA ISTANBUL TR",Food & Dining,Restaurants,"Main Category: Food & Dining 
+Subcategory:  Restaurants  
+","{
+  ""category"": ""Food & Dining"",
+  ""subcategory"": ""Restaurants""
+}",False,False,EMK GIDA ISTANBUL TR
 30/06/24,"Diğer, HOT DONER ISTANBUL TR",240.0,"11.008,23 TL","Diğer, HOT DONER ISTANBUL TR","Diğer, HOT DONER ISTANBUL TR",Food & Dining,Restaurants,-,-,False,True,HOT DONER ISTANBUL TR
