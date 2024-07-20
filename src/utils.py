@@ -1,3 +1,7 @@
+
+#streamlit run app2.py
+
+
 import yaml
 import os
 import re
@@ -17,12 +21,27 @@ def extract_categories(data):
             categories.append(main_category)
             subcat_list = []
             if isinstance(subcat, list):
-                for item in subcat:
-                    for sub_category, sub_subcat in item.items():
-                        subcat_list.append(sub_category)
+                for sub_category in subcat:
+                    subcat_list.append(sub_category)
             subcategories[main_category] = subcat_list
 
     return categories, subcategories
+#
+# def extract_categories(data):
+#     categories = []
+#     subcategories = {}
+#
+#     for category in data['categories']:
+#         for main_category, subcat in category.items():
+#             categories.append(main_category)
+#             subcat_list = []
+#             if isinstance(subcat, list):
+#                 for item in subcat:
+#                     for sub_category, sub_subcat in item.items():
+#                         subcat_list.append(sub_category)
+#             subcategories[main_category] = subcat_list
+#
+#     return categories, subcategories
 
 
 def string_to_dict(string):
